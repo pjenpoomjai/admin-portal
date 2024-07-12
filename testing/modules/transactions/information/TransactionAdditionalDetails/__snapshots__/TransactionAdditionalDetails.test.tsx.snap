@@ -1,0 +1,1476 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionAdditionalDetails : View Should render successfully with custom text for invalid value 1`] = `
+<body>
+  <div>
+    <div
+      class="pt-4"
+    >
+      <div
+        class="tableGray flex flex-wrap justify-between pb-4 px-6"
+      >
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="creationDateTime-information-field-typography"
+              data-testid="creationDateTime-information-field-typography"
+              placeholder=""
+            >
+              Creation Date Time :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="creationDateTime-information-value-typography"
+              data-testid="creationDateTime-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="expiryDateTime-information-field-typography"
+              data-testid="expiryDateTime-information-field-typography"
+              placeholder=""
+            >
+              Expiry Date Time :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="expiryDateTime-information-value-typography"
+              data-testid="expiryDateTime-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="postedDateTime-information-field-typography"
+              data-testid="postedDateTime-information-field-typography"
+              placeholder=""
+            >
+              Posted Date Time :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="postedDateTime-information-value-typography"
+              data-testid="postedDateTime-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="dueDate-information-field-typography"
+              data-testid="dueDate-information-field-typography"
+              placeholder=""
+            >
+              Due Date :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="dueDate-information-value-typography"
+              data-testid="dueDate-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="transactionReceiptNumber-information-field-typography"
+              data-testid="transactionReceiptNumber-information-field-typography"
+              placeholder=""
+            >
+              Transaction Receipt Number :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="transactionReceiptNumber-information-value-typography"
+              data-testid="transactionReceiptNumber-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="transactionType-information-field-typography"
+              data-testid="transactionType-information-field-typography"
+              placeholder=""
+            >
+              Transaction Type :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="transactionType-information-value-typography"
+              data-testid="transactionType-information-value-typography"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="status-information-field-typography"
+              data-testid="status-information-field-typography"
+              placeholder=""
+            >
+              Status :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="status-information-value-typography"
+              data-testid="status-information-value-typography"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="onUs-information-field-typography"
+              data-testid="onUs-information-field-typography"
+              placeholder=""
+            >
+              On-Us :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="onUs-information-value-typography"
+              data-testid="onUs-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="paymentMethod-information-field-typography"
+              data-testid="paymentMethod-information-field-typography"
+              placeholder=""
+            >
+              Payment Method :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="paymentMethod-information-value-typography"
+              data-testid="paymentMethod-information-value-typography"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="chargeAmount-information-field-typography"
+              data-testid="chargeAmount-information-field-typography"
+              placeholder=""
+            >
+              Charge Amount :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="chargeAmount-information-value-typography"
+              data-testid="chargeAmount-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="ibFee-information-field-typography"
+              data-testid="ibFee-information-field-typography"
+              placeholder=""
+            >
+              IB Fee :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="ibFee-information-value-typography"
+              data-testid="ibFee-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="irFee-information-field-typography"
+              data-testid="irFee-information-field-typography"
+              placeholder=""
+            >
+              IR Fee :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="irFee-information-value-typography"
+              data-testid="irFee-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="equivalentAmount-information-field-typography"
+              data-testid="equivalentAmount-information-field-typography"
+              placeholder=""
+            >
+              Equivalent Amount :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="equivalentAmount-information-value-typography"
+              data-testid="equivalentAmount-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="equivalentCurrency-information-field-typography"
+              data-testid="equivalentCurrency-information-field-typography"
+              placeholder=""
+            >
+              Equivalent Currency :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="equivalentCurrency-information-value-typography"
+              data-testid="equivalentCurrency-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="billerType-information-field-typography"
+              data-testid="billerType-information-field-typography"
+              placeholder=""
+            >
+              Biller Type :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="billerType-information-value-typography"
+              data-testid="billerType-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="billerCode-information-field-typography"
+              data-testid="billerCode-information-field-typography"
+              placeholder=""
+            >
+              Biller Code :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="billerCode-information-value-typography"
+              data-testid="billerCode-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="billerName-information-field-typography"
+              data-testid="billerName-information-field-typography"
+              placeholder=""
+            >
+              Biller Name :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="billerName-information-value-typography"
+              data-testid="billerName-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="billerProfileId-information-field-typography"
+              data-testid="billerProfileId-information-field-typography"
+              placeholder=""
+            >
+              Biller Profile ID :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="billerProfileId-information-value-typography"
+              data-testid="billerProfileId-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="billerSubType-information-field-typography"
+              data-testid="billerSubType-information-field-typography"
+              placeholder=""
+            >
+              Biller Sub-Type :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="billerSubType-information-value-typography"
+              data-testid="billerSubType-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="billReference1-information-field-typography"
+              data-testid="billReference1-information-field-typography"
+              placeholder=""
+            >
+              Bill Reference 1 :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="billReference1-information-value-typography"
+              data-testid="billReference1-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="billReference2-information-field-typography"
+              data-testid="billReference2-information-field-typography"
+              placeholder=""
+            >
+              Bill Reference 2 :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="billReference2-information-value-typography"
+              data-testid="billReference2-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="billReference3-information-field-typography"
+              data-testid="billReference3-information-field-typography"
+              placeholder=""
+            >
+              Bill Reference 3 :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="billReference3-information-value-typography"
+              data-testid="billReference3-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="senderName-information-field-typography"
+              data-testid="senderName-information-field-typography"
+              placeholder=""
+            >
+              Sender Name :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="senderName-information-value-typography"
+              data-testid="senderName-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="senderId-information-field-typography"
+              data-testid="senderId-information-field-typography"
+              placeholder=""
+            >
+              Sender ID :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="senderId-information-value-typography"
+              data-testid="senderId-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="senderMobile-information-field-typography"
+              data-testid="senderMobile-information-field-typography"
+              placeholder=""
+            >
+              Sender Mobile :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="senderMobile-information-value-typography"
+              data-testid="senderMobile-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="senderEmail-information-field-typography"
+              data-testid="senderEmail-information-field-typography"
+              placeholder=""
+            >
+              Sender Email :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="senderEmail-information-value-typography"
+              data-testid="senderEmail-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="remittanceInfo-information-field-typography"
+              data-testid="remittanceInfo-information-field-typography"
+              placeholder=""
+            >
+              Remittance Info :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="remittanceInfo-information-value-typography"
+              data-testid="remittanceInfo-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="thaiQrTag-information-field-typography"
+              data-testid="thaiQrTag-information-field-typography"
+              placeholder=""
+            >
+              Thai QR Tag :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="thaiQrTag-information-value-typography"
+              data-testid="thaiQrTag-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="annotation-information-field-typography"
+              data-testid="annotation-information-field-typography"
+              placeholder=""
+            >
+              Annotation :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="annotation-information-value-typography"
+              data-testid="annotation-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="accountServiceReference-information-field-typography"
+              data-testid="accountServiceReference-information-field-typography"
+              placeholder=""
+            >
+              Account Servicer Reference :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="accountServiceReference-information-value-typography"
+              data-testid="accountServiceReference-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="exchangeRate-information-field-typography"
+              data-testid="exchangeRate-information-field-typography"
+              placeholder=""
+            >
+              Exchange Rate :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="exchangeRate-information-value-typography"
+              data-testid="exchangeRate-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="paymentType-information-field-typography"
+              data-testid="paymentType-information-field-typography"
+              placeholder=""
+            >
+              Payment Type :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="paymentType-information-value-typography"
+              data-testid="paymentType-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="additionalNote-information-field-typography"
+              data-testid="additionalNote-information-field-typography"
+              placeholder=""
+            >
+              Additional Note :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="additionalNote-information-value-typography"
+              data-testid="additionalNote-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="table flex flex-wrap justify-between pb-4 px-6"
+      >
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="header-pay-typography"
+              data-testid="header-pay-typography"
+              placeholder=""
+            />
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="header-pay-payer-typography"
+              data-testid="header-pay-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              Payer
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="header-pay-payee-typography"
+              data-testid="header-pay-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              Payee
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="proxy-customer-type-typography"
+              data-testid="proxy-customer-type-typography"
+              placeholder=""
+            >
+              Proxy Customer Type :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="proxy-customer-type-payer-typography"
+              data-testid="proxy-customer-type-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="proxy-customer-type-payee-typography"
+              data-testid="proxy-customer-type-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="proxy-account-name-typography"
+              data-testid="proxy-account-name-typography"
+              placeholder=""
+            >
+              Proxy Account Name :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="proxy-account-name-payer-typography"
+              data-testid="proxy-account-name-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="proxy-account-name-payee-typography"
+              data-testid="proxy-account-name-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="available-balance-typography"
+              data-testid="available-balance-typography"
+              placeholder=""
+            >
+              Available Balance :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="available-balance-payer-typography"
+              data-testid="available-balance-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="available-balance-payee-typography"
+              data-testid="available-balance-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="account-status-code-typography"
+              data-testid="account-status-code-typography"
+              placeholder=""
+            >
+              Account Status Code :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="account-status-code-payer-typography"
+              data-testid="account-status-code-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="account-status-code-payee-typography"
+              data-testid="account-status-code-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="account-status-description-typography"
+              data-testid="account-status-description-typography"
+              placeholder=""
+            >
+              Account Status Description :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="account-status-description-payer-typography"
+              data-testid="account-status-description-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="account-status-description-payee-typography"
+              data-testid="account-status-description-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="email-address-typography"
+              data-testid="email-address-typography"
+              placeholder=""
+            >
+              Email Address :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="email-address-payer-typography"
+              data-testid="email-address-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="email-address-payee-typography"
+              data-testid="email-address-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="mobile-number-typography"
+              data-testid="mobile-number-typography"
+              placeholder=""
+            >
+              Mobile Number :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="mobile-number-payer-typography"
+              data-testid="mobile-number-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="mobile-number-payee-typography"
+              data-testid="mobile-number-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="teca-Code-typography"
+              data-testid="teca-Code-typography"
+              placeholder=""
+            >
+              TEPA Code :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="teca-Code-payer-typography"
+              data-testid="teca-Code-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="teca-Code-payee-typography"
+              data-testid="teca-Code-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="fcd-amount-typography"
+              data-testid="fcd-amount-typography"
+              placeholder=""
+            >
+              FCD Amount :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="fcd-amount-payer-typography"
+              data-testid="fcd-amount-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="fcd-amount-payee-typography"
+              data-testid="fcd-amount-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="fcd-currency-typography"
+              data-testid="fcd-currency-typography"
+              placeholder=""
+            >
+              FCD Currency :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="fcd-currency-payer-typography"
+              data-testid="fcd-currency-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="fcd-currency-payee-typography"
+              data-testid="fcd-currency-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex w-1/5 py-2 px-6"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="fcd-equivalent-amount-typography"
+              data-testid="fcd-equivalent-amount-typography"
+              placeholder=""
+            >
+              FCD Equivalent Amount :
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="fcd-equivalent-amount-payer-typography"
+              data-testid="fcd-equivalent-amount-payer-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+          <div
+            class="flex w-2/5 p-2"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="fcd-equivalent-amount-payee-typography"
+              data-testid="fcd-equivalent-amount-payee-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

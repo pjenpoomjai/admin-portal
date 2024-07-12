@@ -1,0 +1,49 @@
+.root {
+	height: 56px;
+	background-color: var(--gray-30);
+	border-radius: 8px;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+	font-size: var(--font-size-xl);
+}
+
+.root :global .MuiTabs-flexContainer {
+	gap: 16px;
+}
+
+.root :global .Mui-selected {
+	color: var(--violet-500);
+}
+
+.root :global .MuiTab-root {
+	padding: 0 8px;
+	min-width: 0;
+	min-height: 56px;
+	text-transform: none;
+}
+
+.root :global .MuiTab-root .MuiSvgIcon-root {
+	color: var(--rose-600);
+	width: 8px;
+	height: 8px;
+
+	align-self: start;
+	margin-top: 16px;
+	margin-left: 10px;
+}
+
+.root :global .MuiTabs-indicator {
+	background-color: var(--violet-500);
+}
+
+.root :global .MuiIconButton-root {
+	padding: 0;
+}
+
+.root :global .MuiIconButton-root:hover {
+	background-color: transparent;
+}
+
+.root :global .MuiTabs-scrollButtons.Mui-disabled {
+	opacity: 0.3;
+}
+

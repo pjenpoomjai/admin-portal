@@ -1,0 +1,22 @@
+{
+	"status": {
+		"code": "1000",
+		"description": "Success"
+	},
+	"pageNo": 1,
+	"pageLimit": 30,
+	"totalPage": 1,
+	"totalRow": 1,
+	"data": [
+		{
+			"serviceId": "278b57f3-aae4-2320-afa3-7f4de802c3d4",
+			"functionName": "QR-VALIDATION",
+			"systemName": "ODS",
+			"activeStatus": true,
+			"createdDateTime": "2024-03-04 11:50:02",
+			"createdBy": "System",
+			"updatedDateTime": "2024-03-04 11:50:02",
+			"updatedBy": "System"
+		}
+	]
+}

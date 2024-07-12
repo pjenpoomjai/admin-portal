@@ -1,0 +1,20 @@
+variables:
+  COMPANY_CODE: scb
+  PROJECT_CODE: payment-domain-cloud
+  SERVICE_NAME: admin-portal
+  SERVICE_LANGUAGE: js
+  DEPENDENCY_MANAGEMENT: npm
+  OVERWRITE_GLOBAL_BASE_IMAGE: true
+  DOCKER_BASE_IMAGE_URL: 405524983081.dkr.ecr.ap-southeast-1.amazonaws.com/aella-xplatform/facility/nodejs20
+  DOCKER_BASE_IMAGE_VERSION: alpine3.19-nodejs20-202402121055
+  DOCKER_BASE_IMAGE_URL_MOUNTEBANK: 405524983081.dkr.ecr.ap-southeast-1.amazonaws.com/aella-xplatform-ecr/facility/mountebank
+  DOCKER_BASE_IMAGE_VERSION_MOUNTEBANK: nodejs16-alpine3.17-1.0.1
+  GITLAB_CI_TEST_PROFILE: full
+  SONAR_BINARY: ./
+  SONAR_SOURCE: ./src
+  SONAR_TESTS: ./testing
+  SONAR_COVERAGE_EXCLUSIONS: 'src/**/*'
+  SONAR_EXCLUSIONS: 'testing/**/*,src/app/**/*,src/appConfig/**/*,src/components/**/*,src/config/**/*,src/contexts/**/*,src/providers/**/*,src/config/**/*,src/middleware,src/middlewares/**/*,src/servers/**/*,src/utils/**/*,src/shared/**/*'
+  ENABLE_DEPLOY_DEV_ENV: 'true'
+  ENABLE_TEST_AFTER_DEPLOY: 'true'
+  ENABLE_DELETE_RESOURDE_AFTER_FINISH: 'true'

@@ -1,0 +1,20 @@
+.table > div:nth-child(1) {
+	background-color: var(--indigo-500);
+	border-radius: 4px 4px 0 0;
+	font-weight: 600;
+	color: var(--gray-30);
+}
+
+.table > div:nth-child(2n) {
+	background-color: var(--gray-100);
+}
+
+.table > div:last-child {
+	border-radius: 0 0 4px 4px;
+}
+
+.tableGray > div:nth-child(4n-1),
+.tableGray > div:nth-child(4n) {
+	background-color: var(--gray-100);
+	border-radius: 4px;
+}

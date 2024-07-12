@@ -1,0 +1,1989 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionsInformationContainer : Container Configuration Should render successfully 1`] = `
+.emotion-0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+}
+
+.emotion-1 {
+  overflow: hidden;
+  min-height: 48px;
+  -webkit-overflow-scrolling: touch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width:599.95px) {
+  .emotion-1 .MuiTabs-scrollButtons {
+    display: none;
+  }
+}
+
+.emotion-2 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  white-space: nowrap;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  max-width: 360px;
+  min-width: 90px;
+  position: relative;
+  min-height: 48px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding: 12px 16px;
+  overflow: hidden;
+  white-space: normal;
+  text-align: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.emotion-4::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-4.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-4 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-4.Mui-selected {
+  color: #1976d2;
+}
+
+.emotion-4.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.emotion-5 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-10 {
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #1976d2;
+}
+
+<body>
+  <div>
+    <div
+      class="w-full"
+    >
+      <p
+        class="block antialiased font-sans text-xl font-semibold text-indigo-500 pb-6"
+        data-id="search-transactions-typography"
+        data-testid="search-transactions-typography"
+        placeholder=""
+      >
+        Transactions
+      </p>
+      <div
+        class="flex items-center pb-6"
+      >
+        <a
+          href="/transactions"
+        >
+          <p
+            class="block antialiased font-sans text-base font-light leading-relaxed hover:underline text-gray-400"
+            data-id="transaction-search-step-typography"
+            data-testid="transaction-search-step-typography"
+            placeholder=""
+          >
+            Transactions
+          </p>
+        </a>
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium transform -rotate-90 emotion-0"
+          data-testid="KeyboardArrowDownIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+          />
+        </svg>
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-indigo-500"
+          data-id="transaction-detail-step-typography"
+          data-testid="transaction-detail-step-typography"
+          placeholder=""
+        >
+          Transactions Details
+        </p>
+      </div>
+      <div
+        class="rounded-lg bg-white mb-6 w-full"
+      >
+        <p
+          class="block antialiased font-sans text-lg font-semibold text-white px-6 py-4 bg-indigo-500 rounded-t-lg"
+          data-id="transaction-information-typography"
+          data-testid="transaction-information-typography"
+          placeholder=""
+        >
+          Transaction
+        </p>
+        <div
+          class="table flex flex-wrap justify-between px-6 py-4"
+        >
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="transactionId-information-field-typography"
+                data-testid="transactionId-information-field-typography"
+                placeholder=""
+              >
+                Transaction Id  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="transactionId-information-value-typography"
+                data-testid="transactionId-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                64bc0071-459f-47b1-8daa-c13f53be0028
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="status-information-field-typography"
+                data-testid="status-information-field-typography"
+                placeholder=""
+              >
+                Status  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="status-information-value-typography"
+                data-testid="status-information-value-typography"
+                placeholder=""
+              >
+                Processed
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="transactionReference-information-field-typography"
+                data-testid="transactionReference-information-field-typography"
+                placeholder=""
+              >
+                Transaction Reference  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="transactionReference-information-value-typography"
+                data-testid="transactionReference-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                41beca6e-4efc-4faa-bf38-592c37bba1b3
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="activityDomain-information-field-typography"
+                data-testid="activityDomain-information-field-typography"
+                placeholder=""
+              >
+                Activity Domain  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="activityDomain-information-value-typography"
+                data-testid="activityDomain-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                activityDomain
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="instructionReference-information-field-typography"
+                data-testid="instructionReference-information-field-typography"
+                placeholder=""
+              >
+                Instruction Reference  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="instructionReference-information-value-typography"
+                data-testid="instructionReference-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                B2024012509091899994096251046777744
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="linkedTransaction-information-field-typography"
+                data-testid="linkedTransaction-information-field-typography"
+                placeholder=""
+              >
+                Linked Transaction  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="linkedTransaction-information-value-link-typography"
+                data-testid="linkedTransaction-information-value-link-typography"
+                placeholder=""
+              >
+                -
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="transactionEndToEndId-information-field-typography"
+                data-testid="transactionEndToEndId-information-field-typography"
+                placeholder=""
+              >
+                Transaction End To End Id  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="transactionEndToEndId-information-value-typography"
+                data-testid="transactionEndToEndId-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                20240125090918100014096251046777744
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="amount-information-field-typography"
+                data-testid="amount-information-field-typography"
+                placeholder=""
+              >
+                Amount  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="amount-information-value-typography"
+                data-testid="amount-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                202.88 THB
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="undefined-information-field-typography"
+                data-testid="undefined-information-field-typography"
+                placeholder=""
+              >
+                Transaction Date  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="undefined-information-value-typography"
+                data-testid="undefined-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                25-01-2024 09:09:20.456 ICT
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="undefined-information-field-typography"
+                data-testid="undefined-information-field-typography"
+                placeholder=""
+              >
+                Latest Submission  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="undefined-information-value-typography"
+                data-testid="undefined-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                25-01-2024 08:09:20
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="classification-information-field-typography"
+                data-testid="classification-information-field-typography"
+                placeholder=""
+              >
+                Classification  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="classification-information-value-typography"
+                data-testid="classification-information-value-typography"
+                placeholder=""
+              >
+                InitiateCustomerCreditTransfer
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="bank-information-field-typography"
+                data-testid="bank-information-field-typography"
+                placeholder=""
+              >
+                Bank  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="bank-information-value-typography"
+                data-testid="bank-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                014
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="service-information-field-typography"
+                data-testid="service-information-field-typography"
+                placeholder=""
+              >
+                Service :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="service-information-value-typography"
+                data-testid="service-information-value-typography"
+                placeholder=""
+              >
+                Crossbank bill payment
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="incomingBankingEntity-information-field-typography"
+                data-testid="incomingBankingEntity-information-field-typography"
+                placeholder=""
+              >
+                Incoming Banking Entity  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="incomingBankingEntity-information-value-typography"
+                data-testid="incomingBankingEntity-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                006
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="servicerTransactionId-information-field-typography"
+                data-testid="servicerTransactionId-information-field-typography"
+                placeholder=""
+              >
+                Servicer Transaction Id  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="servicerTransactionId-information-value-typography"
+                data-testid="servicerTransactionId-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                -
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="outgoingBankingEntity-information-field-typography"
+                data-testid="outgoingBankingEntity-information-field-typography"
+                placeholder=""
+              >
+                Outgoing Banking Entity  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="outgoingBankingEntity-information-value-typography"
+                data-testid="outgoingBankingEntity-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                014
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="importance-information-field-typography"
+                data-testid="importance-information-field-typography"
+                placeholder=""
+              >
+                Importance  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="importance-information-value-typography"
+                data-testid="importance-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                importance
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-[calc(50%-12px)] py-2 px-3"
+          >
+            <div
+              class="pr-2 w-2/5"
+            >
+              <p
+                class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                data-id="undefined-information-field-typography"
+                data-testid="undefined-information-field-typography"
+                placeholder=""
+              >
+                ISO20022 Flag  :
+              </p>
+            </div>
+            <div
+              class="pl-2 w-3/5"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                data-id="undefined-information-value-typography"
+                data-testid="undefined-information-value-typography"
+                notmatchlabel="-"
+                placeholder=""
+              >
+                T
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tab"
+      >
+        <div
+          class="flex flex-row bg-white h-full overflow-y-hidden"
+        >
+          <div
+            class="MuiTabs-root mx-[24px] emotion-1"
+            data-id="transaction-tab"
+            data-testid="transaction-tab"
+          >
+            <div
+              class="MuiTabs-scroller MuiTabs-fixed emotion-2"
+              style="overflow: hidden; margin-bottom: 0px;"
+            >
+              <div
+                class="MuiTabs-flexContainer emotion-3"
+                role="tablist"
+              >
+                <button
+                  aria-selected="true"
+                  class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected overflow-y-hidden text-gray-500 emotion-4"
+                  data-id="details-tab"
+                  data-testid="details-tab"
+                  role="tab"
+                  tabindex="0"
+                  type="button"
+                >
+                  <div
+                    class="overflow-y-hidden"
+                  >
+                    <p
+                      class="text-base font-medium"
+                      data-id="label-details-label"
+                      data-testid="label-details-label"
+                    >
+                      Details
+                    </p>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root emotion-5"
+                  />
+                </button>
+                <button
+                  aria-selected="false"
+                  class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary overflow-y-hidden text-gray-500 emotion-4"
+                  data-id="additionalDetails-tab"
+                  data-testid="additionalDetails-tab"
+                  role="tab"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <div
+                    class="overflow-y-hidden"
+                  >
+                    <p
+                      class="text-base font-medium"
+                      data-id="label-additionalDetails-label"
+                      data-testid="label-additionalDetails-label"
+                    >
+                      Additional Details
+                    </p>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root emotion-5"
+                  />
+                </button>
+                <button
+                  aria-selected="false"
+                  class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary overflow-y-hidden text-gray-500 emotion-4"
+                  data-id="history-tab"
+                  data-testid="history-tab"
+                  role="tab"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <div
+                    class="overflow-y-hidden"
+                  >
+                    <p
+                      class="text-base font-medium"
+                      data-id="label-history-label"
+                      data-testid="label-history-label"
+                    >
+                      History
+                    </p>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root emotion-5"
+                  />
+                </button>
+              </div>
+              <span
+                class="MuiTabs-indicator emotion-10"
+                style="left: 0px; width: 0px;"
+              />
+            </div>
+          </div>
+          <div
+            class="my-[8px] h-[40px] flex items-center"
+          />
+        </div>
+      </div>
+      <div
+        class="bg-white rounded-b-lg"
+      >
+        <div
+          class="pt-4"
+        >
+          <div
+            class="table flex flex-wrap justify-between pb-4 px-6"
+          >
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="header-income-outcome-typography"
+                  data-testid="header-income-outcome-typography"
+                  placeholder=""
+                />
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="header-income-outcome-incoming-typography"
+                  data-testid="header-income-outcome-incoming-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  Incoming
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="header-income-outcome-outgoing-typography"
+                  data-testid="header-income-outcome-outgoing-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  Outgoing
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="instruction-id-typography"
+                  data-testid="instruction-id-typography"
+                  placeholder=""
+                >
+                  Instruction Id :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="instruction-id-incoming-typography"
+                  data-testid="instruction-id-incoming-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  20240125090918999994096251046777744
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="instruction-id-outgoing-typography"
+                  data-testid="instruction-id-outgoing-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="business-participant-typography"
+                  data-testid="business-participant-typography"
+                  placeholder=""
+                >
+                  Business Participant :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="business-participant-incoming-typography"
+                  data-testid="business-participant-incoming-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  ISOT
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="business-participant-outgoing-typography"
+                  data-testid="business-participant-outgoing-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="scheme-typography"
+                  data-testid="scheme-typography"
+                  placeholder=""
+                >
+                  Scheme :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="scheme-incoming-typography"
+                  data-testid="scheme-incoming-typography"
+                  placeholder=""
+                >
+                  InitiateCustomerCreditTransfer
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="scheme-outgoing-typography"
+                  data-testid="scheme-outgoing-typography"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="service-typography"
+                  data-testid="service-typography"
+                  placeholder=""
+                >
+                  Service :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="service-incoming-typography"
+                  data-testid="service-incoming-typography"
+                  placeholder=""
+                >
+                  Crossbank bill payment
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="service-outgoing-typography"
+                  data-testid="service-outgoing-typography"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="table flex flex-wrap justify-between pb-4 px-6"
+          >
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="header-debit-credit-typography"
+                  data-testid="header-debit-credit-typography"
+                  placeholder=""
+                />
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="header-debit-credit-debitParty-typography"
+                  data-testid="header-debit-credit-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  Debit Party
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="header-debit-credit-creditParty-typography"
+                  data-testid="header-debit-credit-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  Credit Party
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="id-typography"
+                  data-testid="id-typography"
+                  placeholder=""
+                >
+                  Id :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="id-debitParty-typography"
+                  data-testid="id-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="id-creditParty-typography"
+                  data-testid="id-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  202309200000033
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="id-2-type-typography"
+                  data-testid="id-2-type-typography"
+                  placeholder=""
+                >
+                  Id 2 Type :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="id-2-type-debitParty-typography"
+                  data-testid="id-2-type-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="id-2-type-creditParty-typography"
+                  data-testid="id-2-type-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="account-typography"
+                  data-testid="account-typography"
+                  placeholder=""
+                >
+                  Account :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="account-debitParty-typography"
+                  data-testid="account-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="account-creditParty-typography"
+                  data-testid="account-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="name-typography"
+                  data-testid="name-typography"
+                  placeholder=""
+                >
+                  Name :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="name-debitParty-typography"
+                  data-testid="name-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  Name Surname
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="name-creditParty-typography"
+                  data-testid="name-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  SIT ROYAL CHITRALADA
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="address-line-1-typography"
+                  data-testid="address-line-1-typography"
+                  placeholder=""
+                >
+                  Address Line 1 :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-1-debitParty-typography"
+                  data-testid="address-line-1-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-1-creditParty-typography"
+                  data-testid="address-line-1-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="address-line-2-typography"
+                  data-testid="address-line-2-typography"
+                  placeholder=""
+                >
+                  Address Line 2 :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-2-debitParty-typography"
+                  data-testid="address-line-2-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-2-creditParty-typography"
+                  data-testid="address-line-2-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="address-line-3-typography"
+                  data-testid="address-line-3-typography"
+                  placeholder=""
+                >
+                  Address Line 3 :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-3-debitParty-typography"
+                  data-testid="address-line-3-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-3-creditParty-typography"
+                  data-testid="address-line-3-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="city-typography"
+                  data-testid="city-typography"
+                  placeholder=""
+                >
+                  City :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="city-debitParty-typography"
+                  data-testid="city-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="city-creditParty-typography"
+                  data-testid="city-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="country-typography"
+                  data-testid="country-typography"
+                  placeholder=""
+                >
+                  Country :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="country-debitParty-typography"
+                  data-testid="country-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="country-creditParty-typography"
+                  data-testid="country-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="postal-code-typography"
+                  data-testid="postal-code-typography"
+                  placeholder=""
+                >
+                  Postal Code :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="postal-code-debitParty-typography"
+                  data-testid="postal-code-debitParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="postal-code-creditParty-typography"
+                  data-testid="postal-code-creditParty-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="table flex flex-wrap justify-between pb-4 px-6"
+          >
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="header-debit-credit-agent-typography"
+                  data-testid="header-debit-credit-agent-typography"
+                  placeholder=""
+                />
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="header-debit-credit-agent-debitPartyAgent-typography"
+                  data-testid="header-debit-credit-agent-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  Debit Party Agent
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="header-debit-credit-agent-creditPartyAgent-typography"
+                  data-testid="header-debit-credit-agent-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  Credit Party Agent
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="id-type-typography"
+                  data-testid="id-type-typography"
+                  placeholder=""
+                >
+                  Id Type :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="id-type-debitPartyAgent-typography"
+                  data-testid="id-type-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="id-type-creditPartyAgent-typography"
+                  data-testid="id-type-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="id-typography"
+                  data-testid="id-typography"
+                  placeholder=""
+                >
+                  Id :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="id-debitPartyAgent-typography"
+                  data-testid="id-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  006
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="id-creditPartyAgent-typography"
+                  data-testid="id-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  014
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="account-typography"
+                  data-testid="account-typography"
+                  placeholder=""
+                >
+                  Account :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="account-debitPartyAgent-typography"
+                  data-testid="account-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="account-creditPartyAgent-typography"
+                  data-testid="account-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="name-typography"
+                  data-testid="name-typography"
+                  placeholder=""
+                >
+                  Name :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="name-debitPartyAgent-typography"
+                  data-testid="name-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="name-creditPartyAgent-typography"
+                  data-testid="name-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="address-line-1-typography"
+                  data-testid="address-line-1-typography"
+                  placeholder=""
+                >
+                  Address Line 1 :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-1-debitPartyAgent-typography"
+                  data-testid="address-line-1-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-1-creditPartyAgent-typography"
+                  data-testid="address-line-1-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="address-line-2-typography"
+                  data-testid="address-line-2-typography"
+                  placeholder=""
+                >
+                  Address Line 2 :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-2-debitPartyAgent-typography"
+                  data-testid="address-line-2-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-2-creditPartyAgent-typography"
+                  data-testid="address-line-2-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="address-line-3-typography"
+                  data-testid="address-line-3-typography"
+                  placeholder=""
+                >
+                  Address Line 3 :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-3-debitPartyAgent-typography"
+                  data-testid="address-line-3-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="address-line-3-creditPartyAgent-typography"
+                  data-testid="address-line-3-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="city-typography"
+                  data-testid="city-typography"
+                  placeholder=""
+                >
+                  City :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="city-debitPartyAgent-typography"
+                  data-testid="city-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="city-creditPartyAgent-typography"
+                  data-testid="city-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="country-typography"
+                  data-testid="country-typography"
+                  placeholder=""
+                >
+                  Country :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="country-debitPartyAgent-typography"
+                  data-testid="country-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="country-creditPartyAgent-typography"
+                  data-testid="country-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex w-full"
+            >
+              <div
+                class="flex w-1/5 py-2 px-6"
+              >
+                <p
+                  class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+                  data-id="postal-code-typography"
+                  data-testid="postal-code-typography"
+                  placeholder=""
+                >
+                  Postal Code :
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="postal-code-debitPartyAgent-typography"
+                  data-testid="postal-code-debitPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="flex w-2/5 p-2"
+              >
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+                  data-id="postal-code-creditPartyAgent-typography"
+                  data-testid="postal-code-creditPartyAgent-typography"
+                  notmatchlabel="-"
+                  placeholder=""
+                >
+                  -
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

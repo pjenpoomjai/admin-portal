@@ -1,0 +1,29 @@
+.root :global .MuiListItemButton-root > :global.MuiCollapse-root {
+	margin-left: 48px;
+}
+
+.button {
+	font-size: var(--font-size-sm);
+	background-color: transparent;
+	border-radius: 0px 40px 40px 0px;
+	padding: 8px 8px 8px 16px;
+	height: 40px;
+	color: var(--gray-500);
+}
+
+.button:hover {
+	background-color: var(--violet-100);
+}
+
+.buttonParent:hover {
+	background-color: transparent;
+}
+
+.button :global .MuiTouchRipple-root span {
+	opacity: 0;
+}
+
+.buttonActive {
+	background-color: var(--violet-100);
+	color: var(--violet-900);
+}

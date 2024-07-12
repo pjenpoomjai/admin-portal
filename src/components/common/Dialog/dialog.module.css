@@ -1,0 +1,11 @@
+.root :global .MuiPaper-root.MuiDialog-paper {
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.root :global .MuiDialog-container {
+	background: rgba(17, 24, 39, 0.75);
+}
+
+.root :global .MuiButton-root:nth-child(2) {
+	margin-left: 12px;
+}

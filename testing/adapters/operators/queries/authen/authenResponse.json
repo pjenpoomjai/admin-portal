@@ -1,0 +1,204 @@
+{
+	"status": {
+		"code": "PMT-1000",
+		"description": "Success"
+	},
+	"data": {
+		"roleName": "PYMD Development",
+		"rolePermission": "UPDATE",
+		"lastLogin": "2024-02-03 16:36:46",
+		"function": [
+			{
+				"functionId": "F001",
+				"functionName": "Report",
+				"functionType": "FUNCTION",
+				"subFunction": [
+					{
+						"subFunctionId": "S001",
+						"subFunctionName": "Transaction",
+						"subFunctionPath": "/transactions, /transactions/*"
+					},
+					{
+						"subFunctionId": "S002",
+						"subFunctionName": "Processing agreement",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S003",
+						"subFunctionName": "GL Report Parameters",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S004",
+						"subFunctionName": "GL File Generation Parameters",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S005",
+						"subFunctionName": "GL Service Name Derivation",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S006",
+						"subFunctionName": "EDW Fixed Value Parameters",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S007",
+						"subFunctionName": "EDW File Generation Parameters",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S008",
+						"subFunctionName": "EDW Report Generation Frequency",
+						"subFunctionPath": "TBC"
+					}
+				]
+			},
+			{
+				"functionId": "F002",
+				"functionName": "Payment Configurations",
+				"functionType": "FUNCTION",
+				"subFunction": [
+					{
+						"subFunctionId": "S009",
+						"subFunctionName": "Channel Terminal Configuration",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S010",
+						"subFunctionName": "Interval Duration for Duplicate Check",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S011",
+						"subFunctionName": "Initiate Request Expiry Parameters",
+						"subFunctionPath": "TBC"
+					}
+				]
+			},
+			{
+				"functionId": "F003",
+				"functionName": "Reason code mapping",
+				"functionType": "FUNCTION",
+				"subFunction": [
+					{
+						"subFunctionId": "S012",
+						"subFunctionName": "Reversal Required Codes",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S013",
+						"subFunctionName": "GN to SCB Channel Mapping",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S014",
+						"subFunctionName": "MCN to SCB Channel Mapping",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S015",
+						"subFunctionName": "Limit MS to SCB Channel Mapping",
+						"subFunctionPath": "TBC"
+					}
+				]
+			},
+			{
+				"functionId": "F004",
+				"functionName": "System configuration",
+				"functionType": "FUNCTION",
+				"subFunction": [
+					{
+						"subFunctionId": "S016",
+						"subFunctionName": "External System Timeout Parameters",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S017",
+						"subFunctionName": "Inbound TimeOut Configuration",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S018",
+						"subFunctionName": "Outbound TimeOut Configuration",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S019",
+						"subFunctionName": "Timeout Retry Job Parameters",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S020",
+						"subFunctionName": "Vault Key Parameters",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S021",
+						"subFunctionName": "Allowed Request Delay from Channel to PH",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S022",
+						"subFunctionName": "Enable KYM",
+						"subFunctionPath": "TBC"
+					},
+					{
+						"subFunctionId": "S023",
+						"subFunctionName": "Bank configuration",
+						"subFunctionPath": "TBC"
+					}
+				]
+			}
+		],
+		"product": [
+			{
+				"productId": "P005",
+				"productName": "FCD"
+			},
+			{
+				"productId": "P004",
+				"productName": "Any ID Wallet"
+			},
+			{
+				"productId": "P007",
+				"productName": "ePPD"
+			},
+			{
+				"productId": "P006",
+				"productName": "Inward remittance"
+			},
+			{
+				"productId": "P001",
+				"productName": "BILL_PAYMENT"
+			},
+			{
+				"productId": "P003",
+				"productName": "Normal"
+			},
+			{
+				"productId": "P002",
+				"productName": "BILL_PAYMENT_ISO_20022"
+			}
+		],
+		"bankEntity": [
+			{
+				"bankEntityId": "B001",
+				"bankEntityName": "Thai"
+			},
+			{
+				"bankEntityId": "B004",
+				"bankEntityName": "Transaction Logging"
+			},
+			{
+				"bankEntityId": "B002",
+				"bankEntityName": "Laos"
+			},
+			{
+				"bankEntityId": "B003",
+				"bankEntityName": "Cambodia"
+			}
+		]
+	}
+}

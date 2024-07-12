@@ -1,0 +1,18 @@
+.root :global .MuiPaginationItem-page {
+	font-size: var(--font-size-xs);
+}
+
+.root :global .MuiButtonBase-root {
+	border: 1px solid var(--gray-200);
+	color: var(--gray-500);
+	font-size: var(--font-size-xs);
+}
+
+.root :global .MuiSvgIcon-root {
+	width: 16px;
+}
+
+.root :global .Mui-selected {
+	border: 1px solid var(--violet-500);
+	background: var(--violet-100);
+}

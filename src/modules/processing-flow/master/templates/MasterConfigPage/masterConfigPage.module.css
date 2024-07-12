@@ -1,0 +1,37 @@
+.search :global .MuiOutlinedInput-root .MuiAutocomplete-input {
+	padding: 8px 16px;
+}
+
+.search :global .MuiInputBase-root.MuiOutlinedInput-root {
+	padding: 0 4px;
+	height: 100%;
+}
+
+.table :global .MuiTableBody-root .MuiTableRow-root .MuiTableCell-root {
+	font-size: var(--font-size-base) !important;
+}
+
+.table :global .MuiTableHead-root .MuiTableRow-root .MuiTableCell-root {
+	background-color: var(--gray-100) !important;
+}
+
+.table :global .MuiTableHead-root .MuiTableRow-root .MuiTableCell-root p {
+	font-size: var(--font-size-base) !important;
+	color: var(--gray-900) !important;
+}
+
+.table :global .MuiTable-root .MuiTableCell-root {
+	padding: 8px 8px !important;
+}
+
+.table :global .MuiTable-root .MuiTableCell-root:first-child {
+	padding-left: 24px !important;
+}
+
+.table :global .MuiTable-root .MuiTableCell-root:last-child {
+	padding-right: 24px !important;
+}
+
+.table :global .MuiTableBody-root .MuiTableRow-root {
+	height: fit-content !important;
+}

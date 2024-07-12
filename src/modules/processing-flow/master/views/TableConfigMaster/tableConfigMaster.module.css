@@ -1,0 +1,33 @@
+.root :global .MuiTableBody-root .MuiTableRow-root .MuiTableCell-root {
+	font-size: var(--font-size-base) !important;
+}
+
+.root :global .MuiTableHead-root .MuiTableRow-root .MuiTableCell-root {
+	background-color: var(--gray-10) !important;
+}
+
+.root :global .MuiTableHead-root .MuiTableRow-root .MuiTableCell-root p {
+	font-size: var(--font-size-base) !important;
+	color: var(--gray-900) !important;
+}
+
+.root :global .MuiTable-root .MuiTableCell-root {
+	padding: 8px 8px !important;
+}
+
+.root :global .MuiTable-root .MuiTableCell-root:first-child {
+	padding-left: 24px !important;
+}
+
+.root :global .MuiTable-root .MuiTableCell-root:last-child {
+	text-align: right !important;
+	padding-right: 24px !important;
+}
+
+.root :global .MuiTableBody-root .MuiTableRow-root {
+	height: fit-content !important;
+}
+
+.root :global .MuiTable-root .MuiTableCell-head:last-child > p {
+	padding-right: 12px;
+}

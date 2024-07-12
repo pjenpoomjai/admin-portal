@@ -1,0 +1,38 @@
+.root :global .MuiTableCell-head {
+	vertical-align: top;
+}
+
+.root :global .MuiTableCell-body {
+	vertical-align: top;
+}
+
+.root :global .MuiTableCell-body p {
+	width: max-content;
+}
+
+.root :global .MuiTableBody-root .MuiTableRow-root .MuiTableCell-root {
+	font-size: var(--font-size-sm);
+}
+
+.root :global .MuiTableHead-root .MuiTableRow-root .MuiTableCell-root p {
+	font-size: var(--font-size-base);
+}
+
+.root :global .MuiTableBody-root .MuiTableRow-root {
+	height: unset;
+}
+
+.root :global .MuiTableCell-head .MuiSvgIcon-root {
+	opacity: 1;
+	color: var(--gray-300);
+	width: 18px !important;
+}
+
+.tab {
+	box-shadow: unset;
+}
+
+.tab > div {
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+}

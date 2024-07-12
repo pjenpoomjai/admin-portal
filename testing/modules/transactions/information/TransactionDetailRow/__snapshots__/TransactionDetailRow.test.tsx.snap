@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionDetailRow : View Should render successfully 1 key 1`] = `
+<body>
+  <div>
+    <div
+      class="flex w-full"
+    >
+      <div
+        class="flex w-1/2 py-2 px-6"
+      >
+        <p
+          class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+          data-id="r1-typography"
+          data-testid="r1-typography"
+          placeholder=""
+        />
+      </div>
+      <div
+        class="flex w-1/2 p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r1-key-1-typography"
+          data-testid="r1-key-1-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          value-1
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex w-full"
+    >
+      <div
+        class="flex w-1/2 py-2 px-6"
+      >
+        <p
+          class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+          data-id="r2-typography"
+          data-testid="r2-typography"
+          placeholder=""
+        />
+      </div>
+      <div
+        class="flex w-1/2 p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r2-key-1-typography"
+          data-testid="r2-key-1-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          custom
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`TransactionDetailRow : View Should render successfully 2 keys 1`] = `
+<body>
+  <div>
+    <div
+      class="flex w-full"
+    >
+      <div
+        class="flex w-1/5 py-2 px-6"
+      >
+        <p
+          class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+          data-id="r1-typography"
+          data-testid="r1-typography"
+          placeholder=""
+        />
+      </div>
+      <div
+        class="flex w-2/5 p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r1-key-1-typography"
+          data-testid="r1-key-1-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          value-1
+        </p>
+      </div>
+      <div
+        class="flex w-2/5 p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r1-key-2-typography"
+          data-testid="r1-key-2-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          value-2
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex w-full"
+    >
+      <div
+        class="flex w-1/5 py-2 px-6"
+      >
+        <p
+          class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+          data-id="r2-typography"
+          data-testid="r2-typography"
+          placeholder=""
+        />
+      </div>
+      <div
+        class="flex w-2/5 p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r2-key-1-typography"
+          data-testid="r2-key-1-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          custom
+        </p>
+      </div>
+      <div
+        class="flex w-2/5 p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r2-key-2-typography"
+          data-testid="r2-key-2-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          custom
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`TransactionDetailRow : View Should render successfully 3 keys 1`] = `
+<body>
+  <div>
+    <div
+      class="flex w-full"
+    >
+      <div
+        class="flex w-1/5 py-2 px-6"
+      >
+        <p
+          class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+          data-id="r1-typography"
+          data-testid="r1-typography"
+          placeholder=""
+        />
+      </div>
+      <div
+        class="flex w-[calc((4/15)*100%)] p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r1-key-1-typography"
+          data-testid="r1-key-1-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          value-1
+        </p>
+      </div>
+      <div
+        class="flex w-[calc((4/15)*100%)] p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r1-key-2-typography"
+          data-testid="r1-key-2-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          value-2
+        </p>
+      </div>
+      <div
+        class="flex w-[calc((4/15)*100%)] p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r1-key-3-typography"
+          data-testid="r1-key-3-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          value-3
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex w-full"
+    >
+      <div
+        class="flex w-1/5 py-2 px-6"
+      >
+        <p
+          class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+          data-id="r2-typography"
+          data-testid="r2-typography"
+          placeholder=""
+        />
+      </div>
+      <div
+        class="flex w-[calc((4/15)*100%)] p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r2-key-1-typography"
+          data-testid="r2-key-1-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          custom
+        </p>
+      </div>
+      <div
+        class="flex w-[calc((4/15)*100%)] p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r2-key-2-typography"
+          data-testid="r2-key-2-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          custom
+        </p>
+      </div>
+      <div
+        class="flex w-[calc((4/15)*100%)] p-2"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+          data-id="r2-key-3-typography"
+          data-testid="r2-key-3-typography"
+          notmatchlabel="-"
+          placeholder=""
+        >
+          custom
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;

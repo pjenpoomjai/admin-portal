@@ -1,0 +1,30 @@
+{
+	"status": {
+		"code": "PMT-1000",
+		"description": "Success."
+	},
+	"data": [
+		{
+			"id": "64bc0071-459f-47b1-8daa-c13f53be0028",
+			"service": "CROSS_BANK_BILL_PAYMENT",
+			"transactionEndToEndId": "20240125090918100014096251046777744",
+			"transactionReference": "20240125090918999994096251046777744",
+			"transactionReceiptNumber": "20240125090918999994096251046777744",
+			"classification": "InitiateCustomerCreditTransfer",
+			"creditPartyBankCode": "014",
+			"debitPartyBankCode": "006",
+			"amount": 202.88,
+			"currencyCode": "THB",
+			"status": "PROCESSED",
+			"creationDateTime": "2024-01-25T09:09:20.456+07:00",
+			"debitAccountNumber": null,
+			"creditAccountNumber": "4680876231",
+			"billReference1": "4830999800356108",
+			"isWhiteList": true
+		}
+	],
+	"pageNo": 1,
+	"pageLimit": 50,
+	"totalPage": 1,
+	"totalRow": 1
+}

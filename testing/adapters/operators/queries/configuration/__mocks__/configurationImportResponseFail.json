@@ -1,0 +1,44 @@
+{
+	"status": {
+		"code": "PMT-2007",
+		"description": "Invalid information. Please try again."
+	},
+	"data": {
+		"process": [
+			{
+				"configName": "configuration",
+				"record": {
+					"new": 2,
+					"update": 2
+				}
+			}
+		],
+		"processFailDetail": [
+			{
+				"configName": "orchestrate",
+				"target": [
+					{
+						"row": 20,
+						"column": 3,
+						"detail": "format"
+					},
+					{
+						"row": 25,
+						"column": 4,
+						"detail": "format"
+					}
+				]
+			},
+			{
+				"configName": "exception_handling",
+				"target": [
+					{
+						"row": 1,
+						"column": 1,
+						"detail": "format"
+					}
+				]
+			}
+		]
+	}
+}

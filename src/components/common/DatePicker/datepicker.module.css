@@ -1,0 +1,59 @@
+.inputDate :global .MuiInputBase-root {
+	height: 48px !important;
+}
+
+.datePicker :global .MuiCalendarPicker-root .MuiPickersArrowSwitcher-spacer {
+	width: '4px';
+}
+
+.datePicker :global .MuiPickersCalendarHeader-labelContainer {
+	font-size: var(--font-size-base);
+	color: var(--gray-900);
+}
+
+.datePicker
+	:global
+	.MuiCalendarPicker-root
+	.MuiDayPicker-header
+	.MuiTypography-caption {
+	font-size: var(--font-size-sm);
+	color: var(--gray-400);
+}
+
+.datePicker :global .MuiCalendarPicker-root .MuiPickersDay-root,
+.datePicker :global .MuiCalendarPicker-root .PrivatePickersYear-root {
+	font-size: var(--font-size-sm);
+	color: var(--gray-400);
+}
+
+.datePicker :global .MuiCalendarPicker-root .Mui-disabled {
+	color: var(--gray-200);
+}
+
+.datePicker :global .MuiCalendarPicker-root .MuiPickersDay-today {
+	color: var(--gray-900);
+	border: 1px solid var(--violet-500);
+}
+
+.datePicker :global .MuiCalendarPicker-root .MuiPickersDay-dayWithMargin:hover {
+	background-color: var(--violet-50);
+	color: var(--gray-600);
+}
+
+.datePicker
+	:global
+	.MuiCalendarPicker-root
+	.PrivatePickersYear-yearButton:hover {
+	background-color: var(--violet-50);
+	color: var(--gray-600);
+}
+
+.datePicker :global .MuiCalendarPicker-root .Mui-selected,
+.datePicker :global .MuiCalendarPicker-root .Mui-selected:hover {
+	background-color: var(--violet-500) !important;
+	color: var(--gray-30) !important;
+}
+
+.datePicker :global .PrivatePickersSlideTransition-root {
+	min-height: 200px !important;
+}

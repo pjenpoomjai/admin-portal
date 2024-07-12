@@ -1,0 +1,59 @@
+.root :global .MuiTableCell-head {
+	vertical-align: top;
+}
+
+.root :global .MuiTableCell-body {
+	vertical-align: top;
+}
+
+.root :global .MuiTableCell-body p {
+	width: max-content;
+}
+
+.root :global .MuiTable-root .MuiTableCell-root {
+	padding: 8px 4px;
+}
+
+.root :global .MuiTableCell-head .MuiSvgIcon-root {
+	opacity: 1;
+	color: var(--gray-300);
+	width: 18px !important;
+}
+
+.foundRecord :global .MuiTableCell-head:nth-child(1) {
+	min-width: 75px;
+}
+
+.foundRecord :global .MuiTableCell-head:nth-child(3) {
+	min-width: 110px;
+}
+
+.foundRecord :global .MuiTableCell-head:nth-child(4) {
+	min-width: 97px;
+}
+
+.foundRecord :global .MuiTableCell-head:nth-child(5) {
+	min-width: 120px;
+}
+
+.foundRecord :global .MuiTableCell-head:nth-child(7),
+.foundRecord :global .MuiTableCell-head:nth-child(8) {
+	min-width: 76px;
+}
+
+.foundRecord :global .MuiTableCell-head:nth-child(11) {
+	min-width: 105px;
+}
+
+.foundRecord :global .MuiTableCell-head:nth-child(12),
+.foundRecord :global .MuiTableCell-head:nth-child(13) {
+	min-width: 95px;
+}
+
+.foundRecord :global .MuiTableCell-head:nth-child(14) {
+	min-width: 123px;
+}
+
+.foundRecord :global .MuiTableCell-head:nth-child(15) {
+	min-width: 72px;
+}

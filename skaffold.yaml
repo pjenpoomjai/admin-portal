@@ -1,0 +1,23 @@
+apiVersion: skaffold/v2beta10
+kind: Config
+metadata:
+  name: admin-portal
+  namespace: scb-payment-domain-cloud-admin-portal
+build:
+  tagPolicy:
+    dateTime:
+      format: 2023-03-31_17-00-00
+      timezone: "Asia/Bangkok"
+  artifacts:
+  - image: ##ECR_ENDPOINT##
+deploy:
+  kubectl:
+    manifests:
+    - 'skaffold/*.yaml'
+
+profiles:
+  - name: sandbox
+    deploy:
+      kubectl:
+        manifests:
+          - 'skaffold/*.yaml'

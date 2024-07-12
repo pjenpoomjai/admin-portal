@@ -1,0 +1,7 @@
+.root :global .MuiTableCell-head {
+	vertical-align: top;
+}
+
+.root :global .MuiTableCell-body {
+	vertical-align: top;
+}

@@ -1,0 +1,21 @@
+{
+	"status": {
+		"code": "1000",
+		"description": "Success"
+	},
+	"pageNo": 1,
+	"pageLimit": 30,
+	"totalPage": 1,
+	"totalRow": 1,
+	"data": [
+		{
+			"instructionTypeId": "c616f4ea-f4a4-485e-998e-89f070f90613",
+			"instructionType": "BILL_PAYMENT",
+			"activeStatus": true,
+			"createdDateTime": "2024-03-04 11:50:02",
+			"createdBy": "System",
+			"updatedDateTime": "2024-03-04 11:50:02",
+			"updatedBy": "System"
+		}
+	]
+}

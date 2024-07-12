@@ -1,0 +1,52 @@
+.root :global .MuiTableContainer-root {
+	border: 1px solid var(--gray-200);
+	border-radius: 8px;
+}
+
+.root :global .MuiTableCell-root {
+	border-bottom: 1px solid var(--gray-200);
+}
+
+.root
+	:global
+	.MuiTableBody-root
+	.MuiTableRow-root:last-child
+	.MuiTableCell-root {
+	border-bottom: unset;
+}
+
+.root :global .MuiTableBody-root .MuiTableRow-root .MuiTableCell-root {
+	font-size: var(--font-size-xs);
+	color: var(--gray-600);
+	line-height: var(--line-height-base);
+}
+
+.root :global .MuiTableBody-root .MuiTableRow-root {
+	height: 66px;
+}
+
+.root :global .MuiTableHead-root .MuiTableRow-root .MuiTableCell-root {
+	background-color: var(--indigo-500);
+}
+
+.root :global .MuiTableHead-root .MuiTableRow-root .MuiTableCell-root p {
+	font-size: var(--font-size-sm);
+	color: var(--gray-30);
+	line-height: var(--line-height-base);
+}
+
+.root :global .MuiTableSortLabel-root svg {
+	width: 10px;
+}
+
+.root :global .MuiTable-root .MuiTableCell-root {
+	padding: 4px 4px;
+}
+
+.root :global .MuiTable-root .MuiTableCell-root:first-child {
+	padding-left: 8px;
+}
+
+.root :global .MuiTable-root .MuiTableCell-root:last-child {
+	padding-right: 8px;
+}

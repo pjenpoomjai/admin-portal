@@ -1,0 +1,25 @@
+{
+	"status": {
+		"code": "PMT-1000",
+		"description": "Success."
+	},
+	"data": {
+		"process": [
+			{
+				"configName": "configuration",
+				"record": {
+					"new": 2,
+					"update": 2
+				}
+			},
+			{
+				"configName": "orchestrate",
+				"record": {
+					"new": 2,
+					"update": 2
+				}
+			}
+		],
+		"processFailDetail": []
+	}
+}

@@ -1,0 +1,75 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"components": ["src/components"],
+			"components/*": ["src/components/*"],
+			"components/common": ["src/components/common"],
+			"components/common/*": ["src/components/common/*"],
+			"config": ["src/config"],
+			"config/*": ["src/config/*"],
+			"adapters/*": ["src/adapters/*"],
+			"modules/*": ["src/modules/*"],
+			"modules": ["src/modules"],
+			"contexts": ["src/contexts"],
+			"contexts/*": ["src/contexts/*"],
+			"hooks": ["src/hooks"],
+			"hooks/*": ["src/hooks/*"],
+			"providers": ["src/providers"],
+			"providers/*": ["src/providers/*"],
+			"shared/*": ["src/shared/*"],
+			"types": ["src/types"],
+			"types/*": ["src/types/*"],
+			"utils": ["src/utils"],
+			"utils/*": ["src/utils/*"]
+		},
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"noEmit": true,
+		"incremental": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"plugins": [
+			{
+				"name": "next"
+			}
+		]
+	},
+	"include": [
+		"custom-next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		".next/types/**/*.ts",
+		"src/utils/version.ts",
+		"src/utils/appVersion.js"
+	],
+	"exclude": ["node_modules"],
+	"ts-node": {
+		"compilerOptions": {
+			"target": "es6",
+			"module": "commonjs",
+			"esModuleInterop": true,
+			"lib": ["dom", "dom.iterable", "esnext"],
+			"allowJs": true,
+			"skipLibCheck": true,
+			"strict": true,
+			"noEmit": true,
+			"moduleResolution": "bundler",
+			"resolveJsonModule": true,
+			"isolatedModules": true,
+			"jsx": "preserve",
+			"incremental": true,
+			"plugins": [
+				{
+					"name": "next"
+				}
+			]
+		}
+	}
+}

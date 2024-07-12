@@ -1,0 +1,28 @@
+.root div:last-child {
+	background: rgba(17, 24, 39, 0.75);
+}
+
+.root svg {
+	max-width: 60px;
+	animation: spin 1s linear infinite;
+}
+
+.root div.gradient {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-image: conic-gradient(
+		from 98.24deg at 50% 50%,
+		#ffffff 0deg,
+		rgba(17, 24, 39, 0.75) 360deg
+	);
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

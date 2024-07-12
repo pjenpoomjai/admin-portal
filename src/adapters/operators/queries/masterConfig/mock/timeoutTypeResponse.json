@@ -1,0 +1,25 @@
+{
+	"status": {
+		"code": "1000",
+		"description": "Success"
+	},
+	"pageNo": 1,
+	"pageLimit": 30,
+	"totalPage": 1,
+	"totalRow": 1,
+	"data": [
+		{
+			"timeoutTypeId": "abf4b70b-ec5d-3fb6-1a6f-810947d7ded0",
+			"timeoutType": "REDIS",
+			"timeoutValue": 1000000,
+			"minThreshold": 0.2,
+			"maxThreshold": 1.3,
+			"latencyOffset": 500,
+			"activeStatus": true,
+			"createdDateTime": "2024-03-04 11:50:02",
+			"createdBy": "System",
+			"updatedDateTime": "2024-03-04 11:50:02",
+			"updatedBy": "System"
+		}
+	]
+}

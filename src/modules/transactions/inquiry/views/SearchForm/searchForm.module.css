@@ -1,0 +1,76 @@
+.highlight :global .MuiInputBase-root {
+	background-color: var(--yellow-100);
+}
+
+.input :global .MuiGrid-root {
+	min-height: 44px;
+}
+
+.input :global .MuiFormControl-root {
+	flex-direction: column;
+	align-items: start;
+	justify-content: start;
+}
+.input :global .MuiFormControl-root .MuiInputBase-input {
+	padding: 3px 12px;
+}
+
+.input :global .MuiFormControl-root .MuiOutlinedInput-root {
+	font-size: 12px;
+}
+
+.input :global .MuiFormControl-root .MuiInputBase-root {
+	width: 100%;
+}
+
+.select {
+	flex-direction: row;
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.select > div {
+	width: unset;
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+
+.select :global .MuiFormControl-root .MuiInputBase-root {
+	width: 100%;
+}
+
+.select :global .MuiAutocomplete-root {
+	width: 100%;
+	height: fit-content;
+}
+
+.select :global .MuiOutlinedInput-root .MuiOutlinedInput-input {
+	font-size: 12px;
+}
+
+.select :global .MuiSvgIcon-root {
+	width: 20px;
+	height: 20px;
+}
+
+.datePicker :global .MuiFormControl-root {
+	width: 100%;
+}
+
+.datePicker :global .MuiFormControl-root .MuiInputBase-root {
+	width: 100% !important;
+}
+
+.datePicker > div:nth-child(2) {
+	width: 70%;
+}
+
+.datePicker :global .MuiInputAdornment-root .MuiIconButton-root {
+	padding: 6px 6px 6px 0px;
+}
+
+.datePicker :global .MuiIconButton-edgeEnd > svg {
+	zoom: 70%;
+}

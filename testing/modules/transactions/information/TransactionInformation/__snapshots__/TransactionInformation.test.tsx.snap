@@ -1,0 +1,1091 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionInformation : View Should render successfully with custom text for iso20022Flag 1`] = `
+<body>
+  <div>
+    <div
+      class="rounded-lg bg-white mb-6 w-full"
+    >
+      <p
+        class="block antialiased font-sans text-lg font-semibold text-white px-6 py-4 bg-indigo-500 rounded-t-lg"
+        data-id="transaction-information-typography"
+        data-testid="transaction-information-typography"
+        placeholder=""
+      >
+        Transaction
+      </p>
+      <div
+        class="table flex flex-wrap justify-between px-6 py-4"
+      >
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="transactionId-information-field-typography"
+              data-testid="transactionId-information-field-typography"
+              placeholder=""
+            >
+              Transaction Id  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="transactionId-information-value-typography"
+              data-testid="transactionId-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="status-information-field-typography"
+              data-testid="status-information-field-typography"
+              placeholder=""
+            >
+              Status  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="status-information-value-typography"
+              data-testid="status-information-value-typography"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="transactionReference-information-field-typography"
+              data-testid="transactionReference-information-field-typography"
+              placeholder=""
+            >
+              Transaction Reference  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="transactionReference-information-value-typography"
+              data-testid="transactionReference-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="activityDomain-information-field-typography"
+              data-testid="activityDomain-information-field-typography"
+              placeholder=""
+            >
+              Activity Domain  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="activityDomain-information-value-typography"
+              data-testid="activityDomain-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="instructionReference-information-field-typography"
+              data-testid="instructionReference-information-field-typography"
+              placeholder=""
+            >
+              Instruction Reference  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="instructionReference-information-value-typography"
+              data-testid="instructionReference-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="linkedTransaction-information-field-typography"
+              data-testid="linkedTransaction-information-field-typography"
+              placeholder=""
+            >
+              Linked Transaction  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="linkedTransaction-information-value-link-typography"
+              data-testid="linkedTransaction-information-value-link-typography"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="transactionEndToEndId-information-field-typography"
+              data-testid="transactionEndToEndId-information-field-typography"
+              placeholder=""
+            >
+              Transaction End To End Id  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="transactionEndToEndId-information-value-typography"
+              data-testid="transactionEndToEndId-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="amount-information-field-typography"
+              data-testid="amount-information-field-typography"
+              placeholder=""
+            >
+              Amount  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="amount-information-value-typography"
+              data-testid="amount-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="undefined-information-field-typography"
+              data-testid="undefined-information-field-typography"
+              placeholder=""
+            >
+              Transaction Date  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="undefined-information-value-typography"
+              data-testid="undefined-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="undefined-information-field-typography"
+              data-testid="undefined-information-field-typography"
+              placeholder=""
+            >
+              Latest Submission  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="undefined-information-value-typography"
+              data-testid="undefined-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="classification-information-field-typography"
+              data-testid="classification-information-field-typography"
+              placeholder=""
+            >
+              Classification  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="classification-information-value-typography"
+              data-testid="classification-information-value-typography"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="bank-information-field-typography"
+              data-testid="bank-information-field-typography"
+              placeholder=""
+            >
+              Bank  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="bank-information-value-typography"
+              data-testid="bank-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="service-information-field-typography"
+              data-testid="service-information-field-typography"
+              placeholder=""
+            >
+              Service :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="service-information-value-typography"
+              data-testid="service-information-value-typography"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="incomingBankingEntity-information-field-typography"
+              data-testid="incomingBankingEntity-information-field-typography"
+              placeholder=""
+            >
+              Incoming Banking Entity  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="incomingBankingEntity-information-value-typography"
+              data-testid="incomingBankingEntity-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="servicerTransactionId-information-field-typography"
+              data-testid="servicerTransactionId-information-field-typography"
+              placeholder=""
+            >
+              Servicer Transaction Id  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="servicerTransactionId-information-value-typography"
+              data-testid="servicerTransactionId-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="outgoingBankingEntity-information-field-typography"
+              data-testid="outgoingBankingEntity-information-field-typography"
+              placeholder=""
+            >
+              Outgoing Banking Entity  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="outgoingBankingEntity-information-value-typography"
+              data-testid="outgoingBankingEntity-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="importance-information-field-typography"
+              data-testid="importance-information-field-typography"
+              placeholder=""
+            >
+              Importance  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="importance-information-value-typography"
+              data-testid="importance-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="undefined-information-field-typography"
+              data-testid="undefined-information-field-typography"
+              placeholder=""
+            >
+              ISO20022 Flag  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="undefined-information-value-typography"
+              data-testid="undefined-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`TransactionInformation : View Should render successfully with custom text for linkedTransaction 1`] = `
+<body>
+  <div>
+    <div
+      class="rounded-lg bg-white mb-6 w-full"
+    >
+      <p
+        class="block antialiased font-sans text-lg font-semibold text-white px-6 py-4 bg-indigo-500 rounded-t-lg"
+        data-id="transaction-information-typography"
+        data-testid="transaction-information-typography"
+        placeholder=""
+      >
+        Transaction
+      </p>
+      <div
+        class="table flex flex-wrap justify-between px-6 py-4"
+      >
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="transactionId-information-field-typography"
+              data-testid="transactionId-information-field-typography"
+              placeholder=""
+            >
+              Transaction Id  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="transactionId-information-value-typography"
+              data-testid="transactionId-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="status-information-field-typography"
+              data-testid="status-information-field-typography"
+              placeholder=""
+            >
+              Status  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="status-information-value-typography"
+              data-testid="status-information-value-typography"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="transactionReference-information-field-typography"
+              data-testid="transactionReference-information-field-typography"
+              placeholder=""
+            >
+              Transaction Reference  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="transactionReference-information-value-typography"
+              data-testid="transactionReference-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="activityDomain-information-field-typography"
+              data-testid="activityDomain-information-field-typography"
+              placeholder=""
+            >
+              Activity Domain  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="activityDomain-information-value-typography"
+              data-testid="activityDomain-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="instructionReference-information-field-typography"
+              data-testid="instructionReference-information-field-typography"
+              placeholder=""
+            >
+              Instruction Reference  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="instructionReference-information-value-typography"
+              data-testid="instructionReference-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="linkedTransaction-information-field-typography"
+              data-testid="linkedTransaction-information-field-typography"
+              placeholder=""
+            >
+              Linked Transaction  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="linkedTransaction-information-value-link-1234567890-typography"
+              data-testid="linkedTransaction-information-value-link-1234567890-typography"
+              placeholder=""
+            >
+              1234567890
+            </p>
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="linkedTransaction-information-value-link-0987654321-typography"
+              data-testid="linkedTransaction-information-value-link-0987654321-typography"
+              placeholder=""
+            >
+              0987654321
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="transactionEndToEndId-information-field-typography"
+              data-testid="transactionEndToEndId-information-field-typography"
+              placeholder=""
+            >
+              Transaction End To End Id  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="transactionEndToEndId-information-value-typography"
+              data-testid="transactionEndToEndId-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="amount-information-field-typography"
+              data-testid="amount-information-field-typography"
+              placeholder=""
+            >
+              Amount  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="amount-information-value-typography"
+              data-testid="amount-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="undefined-information-field-typography"
+              data-testid="undefined-information-field-typography"
+              placeholder=""
+            >
+              Transaction Date  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="undefined-information-value-typography"
+              data-testid="undefined-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="undefined-information-field-typography"
+              data-testid="undefined-information-field-typography"
+              placeholder=""
+            >
+              Latest Submission  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="undefined-information-value-typography"
+              data-testid="undefined-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="classification-information-field-typography"
+              data-testid="classification-information-field-typography"
+              placeholder=""
+            >
+              Classification  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="classification-information-value-typography"
+              data-testid="classification-information-value-typography"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="bank-information-field-typography"
+              data-testid="bank-information-field-typography"
+              placeholder=""
+            >
+              Bank  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="bank-information-value-typography"
+              data-testid="bank-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="service-information-field-typography"
+              data-testid="service-information-field-typography"
+              placeholder=""
+            >
+              Service :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="service-information-value-typography"
+              data-testid="service-information-value-typography"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="incomingBankingEntity-information-field-typography"
+              data-testid="incomingBankingEntity-information-field-typography"
+              placeholder=""
+            >
+              Incoming Banking Entity  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="incomingBankingEntity-information-value-typography"
+              data-testid="incomingBankingEntity-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="servicerTransactionId-information-field-typography"
+              data-testid="servicerTransactionId-information-field-typography"
+              placeholder=""
+            >
+              Servicer Transaction Id  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="servicerTransactionId-information-value-typography"
+              data-testid="servicerTransactionId-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="outgoingBankingEntity-information-field-typography"
+              data-testid="outgoingBankingEntity-information-field-typography"
+              placeholder=""
+            >
+              Outgoing Banking Entity  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="outgoingBankingEntity-information-value-typography"
+              data-testid="outgoingBankingEntity-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="importance-information-field-typography"
+              data-testid="importance-information-field-typography"
+              placeholder=""
+            >
+              Importance  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="importance-information-value-typography"
+              data-testid="importance-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              -
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-[calc(50%-12px)] py-2 px-3"
+        >
+          <div
+            class="pr-2 w-2/5"
+          >
+            <p
+              class="block antialiased font-sans text-base leading-relaxed text-inherit font-semibold break-words"
+              data-id="undefined-information-field-typography"
+              data-testid="undefined-information-field-typography"
+              placeholder=""
+            >
+              ISO20022 Flag  :
+            </p>
+          </div>
+          <div
+            class="pl-2 w-3/5"
+          >
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-inherit break-words"
+              data-id="undefined-information-value-typography"
+              data-testid="undefined-information-value-typography"
+              notmatchlabel="-"
+              placeholder=""
+            >
+              F
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

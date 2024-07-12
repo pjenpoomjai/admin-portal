@@ -1,0 +1,5 @@
+//<private-registry-url>/repository/:_authToken=NpmToken.<00000000-0000-0000-0000-000000000000>
+registry=https://<private-registry-url>/repository/<repository-name>
+email=<email>
+strict-ssl=false
+always-auth=true

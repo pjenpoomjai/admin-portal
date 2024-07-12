@@ -1,0 +1,15 @@
+.tab {
+	box-shadow: unset;
+}
+
+.tab > div {
+	border-radius: 8px;
+}
+
+.tab :global .Mui-selected {
+	color: var(--indigo-500) !important;
+}
+
+.tab :global .MuiTabs-indicator {
+	background-color: var(--indigo-500) !important;
+}

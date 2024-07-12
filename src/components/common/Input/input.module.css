@@ -1,0 +1,121 @@
+.root :global .MuiInputBase-root {
+	overflow: hidden;
+}
+
+.root :global .MuiOutlinedInput-root {
+	border-radius: 8px;
+}
+
+/* For hiding eye icon in edge browser */
+.root input::-ms-reveal,
+.root input::-ms-clear {
+	display: none;
+}
+
+/* Remove autofill bg */
+.root input:-webkit-autofill,
+.root input:-webkit-autofill:hover,
+.root input:-webkit-autofill:focus,
+.root input:-webkit-autofill:active {
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+.root :global .MuiFormHelperText-root {
+	margin: 4px 0px 0px 0px;
+	font-size: var(--font-size-xs);
+	line-height: var(--line-height-sm);
+	font-weight: 500;
+	color: var(--violet-500);
+}
+
+.root :global .MuiFormHelperText-root.Mui-error {
+	color: var(--rose-500);
+}
+
+.root :global .MuiInputAdornment-root .MuiIconButton-root {
+	padding: 6px 12px 6px 0px;
+	background-color: unset;
+}
+
+.root :global .MuiInputAdornment-root .MuiIconButton-root svg {
+	height: 24px;
+	width: 24px;
+}
+
+.root :global .MuiInputAdornment-root .MuiIconButton-root:hover {
+	background-color: var(--violet-50);
+}
+
+.root :global .MuiOutlinedInput-root.Mui-disabled {
+	background-color: var(--gray-100);
+}
+
+.root
+	:global
+	.MuiOutlinedInput-input.Mui-disabled
+	.MuiOutlinedInput-notchedOutline {
+	border: 1px solid var(--gray-200);
+	border-radius: 8px;
+}
+
+.root :global .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+	border-color: var(--gray-300);
+}
+
+.root :global .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+	border-color: var(--violet-500);
+}
+
+.root :global .MuiOutlinedInput-root.Mui-focused {
+	border-color: var(--violet-500);
+}
+
+.root
+	:global
+	.MuiOutlinedInput-root.Mui-focused
+	.MuiOutlinedInput-notchedOutline {
+	border-color: var(--violet-500);
+}
+
+.root
+	:global
+	.MuiOutlinedInput-root.Mui-error
+	.MuiOutlinedInput-notchedOutline {
+	border-color: var(--rose-500);
+}
+
+.root
+	:global
+	.MuiOutlinedInput-root.Mui-error:hover
+	.MuiOutlinedInput-notchedOutline {
+	border-color: var(--rose-500);
+}
+
+.root :global .MuiOutlinedInput-root.Mui-error.Mui-focused {
+	border-color: var(--rose-500);
+}
+
+.root
+	:global
+	.MuiOutlinedInput-root.Mui-error.Mui-focused
+	.MuiOutlinedInput-notchedOutline {
+	border-color: var(--rose-500);
+}
+
+.root :global .MuiFormLabel-root {
+	color: var(--gray-400);
+}
+
+.root :global .MuiFormLabel-root.Mui-focused {
+	color: var(--gray-400);
+}
+
+.root :global .MuiInputBase-input::placeholder {
+	color: var(--gray-500);
+	opacity: 1;
+}
+
+.root :global .MuiInputBase-root.MuiInputBase-multiline {
+	padding: 0;
+}

@@ -1,0 +1,224 @@
+{
+	"status": {
+		"code": "PMT-1000",
+		"description": "Success."
+	},
+	"data": [
+		{
+			"lookupType": "channel",
+			"lookupName": "BCMS",
+			"lookupValue": "BCMS",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "channel",
+			"lookupName": "ENET",
+			"lookupValue": "ENET",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "channel",
+			"lookupName": "ISOT",
+			"lookupValue": "ISOT",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-02T11:08:11"
+		},
+		{
+			"lookupType": "channel",
+			"lookupName": "ITMX",
+			"lookupValue": "ITMX",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "channel",
+			"lookupName": "RIS",
+			"lookupValue": "RIS",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "channel",
+			"lookupName": "TBS",
+			"lookupValue": "TBS",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "channel",
+			"lookupName": "VTMS",
+			"lookupValue": "VTMS",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "classification",
+			"lookupName": "ConfirmCustomerCreditTransfer",
+			"lookupValue": "ConfirmCustomerCreditTransfer",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "classification",
+			"lookupName": "InitiateCustomerCreditTransfer",
+			"lookupValue": "InitiateCustomerCreditTransfer",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "classification",
+			"lookupName": "ReversalInitiation",
+			"lookupValue": "ReversalInitiation",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "currency",
+			"lookupName": "THB",
+			"lookupValue": "THB",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "paymentmethod",
+			"lookupName": "TRF",
+			"lookupValue": "TRF",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "paymentmethod",
+			"lookupName": "TRF_INITIATE",
+			"lookupValue": "TRF_INITIATE",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "service",
+			"lookupName": "B scan C 20022",
+			"lookupValue": "B_SCAN_C_20022",
+			"permissionType": "PRODUCT",
+			"permissionId": "P002",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "service",
+			"lookupName": "C scan B 20022",
+			"lookupValue": "C_SCAN_B_20022",
+			"permissionType": "PRODUCT",
+			"permissionId": "P002",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "service",
+			"lookupName": "Credit Transfer",
+			"lookupValue": "CREDIT_TRANSFER",
+			"permissionType": "PRODUCT",
+			"permissionId": "P003",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "service",
+			"lookupName": "Crossbank bill payment",
+			"lookupValue": "CROSS_BANK_BILL_PAYMENT",
+			"permissionType": "PRODUCT",
+			"permissionId": "P001",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "service",
+			"lookupName": "Inward remittance",
+			"lookupValue": "INWARD_REMITTANCE",
+			"permissionType": "PRODUCT",
+			"permissionId": "P003",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "service",
+			"lookupName": "Normal bill payment",
+			"lookupValue": "NORMAL_BILL_PAYMENT",
+			"permissionType": "PRODUCT",
+			"permissionId": "P001",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "service",
+			"lookupName": "QR payment",
+			"lookupValue": "QR_PAYMENT",
+			"permissionType": "PRODUCT",
+			"permissionId": "P001",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "status",
+			"lookupName": "Processed",
+			"lookupValue": "PROCESSED",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "status",
+			"lookupName": "Reject",
+			"lookupValue": "REJECTED",
+			"permissionType": null,
+			"permissionId": null,
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "transactionType",
+			"lookupName": "Actual Account",
+			"lookupValue": "ORFT",
+			"permissionType": "PRODUCT",
+			"permissionId": "P003",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "transactionType",
+			"lookupName": "Other SCB",
+			"lookupValue": "3RD",
+			"permissionType": "PRODUCT",
+			"permissionId": "P003",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "transactionType",
+			"lookupName": "Own account",
+			"lookupValue": "OWN",
+			"permissionType": "PRODUCT",
+			"permissionId": "P003",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "transactionType",
+			"lookupName": "PromptPay Other Bank",
+			"lookupValue": "PP_OTHER",
+			"permissionType": "PRODUCT",
+			"permissionId": "P003",
+			"createdDate": "2024-02-01T09:53:37"
+		},
+		{
+			"lookupType": "transactionType",
+			"lookupName": "PromptPay SCB",
+			"lookupValue": "PP_SCB",
+			"permissionType": "PRODUCT",
+			"permissionId": "P003",
+			"createdDate": "2024-02-01T09:53:37"
+		}
+	]
+}

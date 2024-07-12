@@ -1,0 +1,3945 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionsInquiryContainer: Container Configuration Should render successfully 1`] = `
+.emotion-0 {
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-bottom-width: thin;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: -8px;
+  width: calc(100% + 24px);
+  margin-left: -24px;
+}
+
+.emotion-1>.MuiGrid-item {
+  padding-top: 8px;
+}
+
+.emotion-1>.MuiGrid-item {
+  padding-left: 24px;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-basis: 33.333333%;
+  -ms-flex-preferred-size: 33.333333%;
+  flex-basis: 33.333333%;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 33.333333%;
+}
+
+@media (min-width:600px) {
+  .emotion-2 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:900px) {
+  .emotion-2 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-2 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:1536px) {
+  .emotion-2 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+}
+
+.emotion-5 {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+}
+
+.emotion-5.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+  cursor: default;
+}
+
+.emotion-5:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.87);
+}
+
+@media (hover: none) {
+  .emotion-5:hover .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0, 0, 0, 0.23);
+  }
+}
+
+.emotion-5.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1976d2;
+  border-width: 2px;
+}
+
+.emotion-5.Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: #d32f2f;
+}
+
+.emotion-5.Mui-disabled .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-6 {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  padding: 4px 0 5px;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0;
+  width: 100%;
+  -webkit-animation-name: mui-auto-fill-cancel;
+  animation-name: mui-auto-fill-cancel;
+  -webkit-animation-duration: 10ms;
+  animation-duration: 10ms;
+  padding: 16.5px 14px;
+  padding: 0 12px;
+}
+
+.emotion-6::-webkit-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-6::-moz-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-6:-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-6::-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-6:focus {
+  outline: 0;
+}
+
+.emotion-6:invalid {
+  box-shadow: none;
+}
+
+.emotion-6::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-6::-webkit-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-6::-moz-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-6:-ms-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-6::-ms-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-6:focus::-webkit-input-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-6:focus::-moz-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-6:focus:-ms-input-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-6:focus::-ms-input-placeholder {
+  opacity: 0.42;
+}
+
+.emotion-6.Mui-disabled {
+  opacity: 1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.38);
+}
+
+.emotion-6:-webkit-autofill {
+  -webkit-animation-duration: 5000s;
+  animation-duration: 5000s;
+  -webkit-animation-name: mui-auto-fill;
+  animation-name: mui-auto-fill;
+}
+
+.emotion-6:-webkit-autofill {
+  border-radius: inherit;
+}
+
+.emotion-7 {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: -5px;
+  left: 0;
+  margin: 0;
+  padding: 0 8px;
+  pointer-events: none;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  min-width: 0%;
+  border-color: rgba(0, 0, 0, 0.23);
+}
+
+.emotion-8 {
+  float: unset;
+  width: auto;
+  overflow: hidden;
+  padding: 0;
+  line-height: 11px;
+  -webkit-transition: width 150ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  transition: width 150ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+}
+
+.emotion-13 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+}
+
+.emotion-13 .clearButton {
+  opacity: 1;
+}
+
+@media (pointer: fine) {
+  .emotion-13 .clearButton {
+    opacity: 0;
+  }
+
+  .emotion-13:hover .clearButton,
+  .emotion-13:focus-within .clearButton {
+    opacity: 1;
+  }
+}
+
+.emotion-14 {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+  padding-right: 14px;
+}
+
+.emotion-14.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+  cursor: default;
+}
+
+.emotion-14:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.87);
+}
+
+@media (hover: none) {
+  .emotion-14:hover .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0, 0, 0, 0.23);
+  }
+}
+
+.emotion-14.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1976d2;
+  border-width: 2px;
+}
+
+.emotion-14.Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: #d32f2f;
+}
+
+.emotion-14.Mui-disabled .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-15 {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  padding: 4px 0 5px;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0;
+  width: 100%;
+  -webkit-animation-name: mui-auto-fill-cancel;
+  animation-name: mui-auto-fill-cancel;
+  -webkit-animation-duration: 10ms;
+  animation-duration: 10ms;
+  padding: 16.5px 14px;
+  padding-right: 0;
+}
+
+.emotion-15::-webkit-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-15::-moz-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-15:-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-15::-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-15:focus {
+  outline: 0;
+}
+
+.emotion-15:invalid {
+  box-shadow: none;
+}
+
+.emotion-15::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-15::-webkit-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-15::-moz-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-15:-ms-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-15::-ms-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-15:focus::-webkit-input-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-15:focus::-moz-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-15:focus:-ms-input-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-15:focus::-ms-input-placeholder {
+  opacity: 0.42;
+}
+
+.emotion-15.Mui-disabled {
+  opacity: 1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.38);
+}
+
+.emotion-15:-webkit-autofill {
+  -webkit-animation-duration: 5000s;
+  animation-duration: 5000s;
+  -webkit-animation-name: mui-auto-fill;
+  animation-name: mui-auto-fill;
+}
+
+.emotion-15:-webkit-autofill {
+  border-radius: inherit;
+}
+
+.emotion-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.01em;
+  max-height: 2em;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  color: rgba(0, 0, 0, 0.54);
+  margin-left: 8px;
+}
+
+.emotion-17 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: rgba(0, 0, 0, 0.54);
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  margin-right: -12px;
+}
+
+.emotion-17::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-17.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-17 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-17:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-17:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-17.Mui-disabled {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-18 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-36 {
+  height: 35px;
+}
+
+.emotion-36.Mui-focused .MuiAutocomplete-clearIndicator {
+  visibility: visible;
+}
+
+@media (pointer: fine) {
+  .emotion-36:hover .MuiAutocomplete-clearIndicator {
+    visibility: visible;
+  }
+}
+
+.emotion-36 .MuiAutocomplete-tag {
+  margin: 3px;
+  max-width: calc(100% - 6px);
+}
+
+.MuiAutocomplete-hasPopupIcon.emotion-36 .MuiAutocomplete-inputRoot,
+.MuiAutocomplete-hasClearIcon.emotion-36 .MuiAutocomplete-inputRoot {
+  padding-right: 30px;
+}
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.emotion-36 .MuiAutocomplete-inputRoot {
+  padding-right: 56px;
+}
+
+.emotion-36 .MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+  width: 0;
+  min-width: 30px;
+}
+
+.emotion-36 .MuiInput-root {
+  padding-bottom: 1px;
+}
+
+.emotion-36 .MuiInput-root .MuiInput-input {
+  padding: 4px 4px 4px 0px;
+}
+
+.emotion-36 .MuiInput-root.MuiInputBase-sizeSmall .MuiInput-input {
+  padding: 2px 4px 3px 0;
+}
+
+.emotion-36 .MuiOutlinedInput-root {
+  padding: 9px;
+}
+
+.MuiAutocomplete-hasPopupIcon.emotion-36 .MuiOutlinedInput-root,
+.MuiAutocomplete-hasClearIcon.emotion-36 .MuiOutlinedInput-root {
+  padding-right: 39px;
+}
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.emotion-36 .MuiOutlinedInput-root {
+  padding-right: 65px;
+}
+
+.emotion-36 .MuiOutlinedInput-root .MuiAutocomplete-input {
+  padding: 7.5px 4px 7.5px 5px;
+}
+
+.emotion-36 .MuiOutlinedInput-root .MuiAutocomplete-endAdornment {
+  right: 9px;
+}
+
+.emotion-36 .MuiOutlinedInput-root.MuiInputBase-sizeSmall {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+}
+
+.emotion-36 .MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiAutocomplete-input {
+  padding: 2.5px 4px 2.5px 8px;
+}
+
+.emotion-36 .MuiFilledInput-root {
+  padding-top: 19px;
+  padding-left: 8px;
+}
+
+.MuiAutocomplete-hasPopupIcon.emotion-36 .MuiFilledInput-root,
+.MuiAutocomplete-hasClearIcon.emotion-36 .MuiFilledInput-root {
+  padding-right: 39px;
+}
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.emotion-36 .MuiFilledInput-root {
+  padding-right: 65px;
+}
+
+.emotion-36 .MuiFilledInput-root .MuiFilledInput-input {
+  padding: 7px 4px;
+}
+
+.emotion-36 .MuiFilledInput-root .MuiAutocomplete-endAdornment {
+  right: 9px;
+}
+
+.emotion-36 .MuiFilledInput-root.MuiInputBase-sizeSmall {
+  padding-bottom: 1px;
+}
+
+.emotion-36 .MuiFilledInput-root.MuiInputBase-sizeSmall .MuiFilledInput-input {
+  padding: 2.5px 4px;
+}
+
+.emotion-36 .MuiInputBase-hiddenLabel {
+  padding-top: 8px;
+}
+
+.emotion-36 .MuiFilledInput-root.MuiInputBase-hiddenLabel {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.emotion-36 .MuiFilledInput-root.MuiInputBase-hiddenLabel .MuiAutocomplete-input {
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
+
+.emotion-36 .MuiFilledInput-root.MuiInputBase-hiddenLabel.MuiInputBase-sizeSmall .MuiAutocomplete-input {
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+
+.emotion-36 .MuiAutocomplete-input {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-overflow: ellipsis;
+  opacity: 0;
+}
+
+.emotion-36 .MuiAutocomplete-input {
+  opacity: 1;
+}
+
+.emotion-37 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  width: 100%;
+}
+
+.emotion-37 .MuiOutlinedInput-root {
+  height: 35px;
+  padding: 0px!important;
+}
+
+.emotion-37 .MuiOutlinedInput-root .MuiOutlinedInput-input {
+  padding-left: 0;
+  padding-right: 0;
+  color: var(--gray-900);
+  font-size: var(--font-size-base);
+}
+
+.emotion-37 .MuiOutlinedInput-root .MuiOutlinedInput-input::-webkit-input-placeholder {
+  color: var(--gray-400);
+  opacity: 1;
+}
+
+.emotion-37 .MuiOutlinedInput-root .MuiOutlinedInput-input::-moz-placeholder {
+  color: var(--gray-400);
+  opacity: 1;
+}
+
+.emotion-37 .MuiOutlinedInput-root .MuiOutlinedInput-input:-ms-input-placeholder {
+  color: var(--gray-400);
+  opacity: 1;
+}
+
+.emotion-37 .MuiOutlinedInput-root .MuiOutlinedInput-input::placeholder {
+  color: var(--gray-400);
+  opacity: 1;
+}
+
+.emotion-37 .MuiOutlinedInput-notchedOutline {
+  border-radius: 8px;
+  border: 1px solid var(--gray-300);
+  padding: 0 12px;
+}
+
+.emotion-37 .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: var(--violet-500);
+}
+
+.emotion-37 .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--violet-500);
+}
+
+.emotion-37 .MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: var(--rose-500);
+}
+
+.emotion-37 .MuiOutlinedInput-root.Mui-error:hover .MuiOutlinedInput-notchedOutline {
+  border-color: var(--rose-500);
+}
+
+.emotion-37 .MuiOutlinedInput-root.Mui-error.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--rose-500);
+}
+
+.emotion-37 .MuiOutlinedInput-root.Mui-disabled {
+  background-color: var(--gray-100);
+}
+
+.emotion-37 .MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-input::-webkit-input-placeholder {
+  color: var(--gray-500);
+  opacity: 1;
+}
+
+.emotion-37 .MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-input::-moz-placeholder {
+  color: var(--gray-500);
+  opacity: 1;
+}
+
+.emotion-37 .MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-input:-ms-input-placeholder {
+  color: var(--gray-500);
+  opacity: 1;
+}
+
+.emotion-37 .MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-input::placeholder {
+  color: var(--gray-500);
+  opacity: 1;
+}
+
+.emotion-37 .MuiAutocomplete-endAdornment {
+  padding-right: 0;
+  position: absolute;
+}
+
+.emotion-38 {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  border-radius: 4px;
+  padding-right: 14px;
+}
+
+.emotion-38.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+  cursor: default;
+}
+
+.emotion-38:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.87);
+}
+
+@media (hover: none) {
+  .emotion-38:hover .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0, 0, 0, 0.23);
+  }
+}
+
+.emotion-38.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1976d2;
+  border-width: 2px;
+}
+
+.emotion-38.Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: #d32f2f;
+}
+
+.emotion-38.Mui-disabled .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-40 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.emotion-41 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: rgba(0, 0, 0, 0.54);
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  padding: 2px;
+  margin-right: -2px;
+}
+
+.emotion-41::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-41.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-41 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-41:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-41:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-41.Mui-disabled {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-42 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+}
+
+.emotion-180 {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 100%;
+}
+
+@media (min-width:600px) {
+  .emotion-180 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:900px) {
+  .emotion-180 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-180 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:1536px) {
+  .emotion-180 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+}
+
+.emotion-181 {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  visibility: hidden;
+}
+
+.emotion-182 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.emotion-183 {
+  width: 100%;
+}
+
+.emotion-334 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: -16px;
+  width: calc(100% + 16px);
+  margin-left: -16px;
+}
+
+.emotion-334>.MuiGrid-item {
+  padding-top: 16px;
+}
+
+.emotion-334>.MuiGrid-item {
+  padding-left: 16px;
+}
+
+.emotion-338 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #fff;
+  background-color: #1976d2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  box-shadow: unset;
+}
+
+.emotion-338::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-338.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-338 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-338:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #1565c0;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+@media (hover: none) {
+  .emotion-338:hover {
+    background-color: #1976d2;
+  }
+}
+
+.emotion-338:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.emotion-338.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.emotion-338.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.emotion-338.MuiButton-root {
+  text-transform: none;
+  color: var(--gray-30);
+  border-radius: 6px;
+  background-color: var(--violet-500);
+}
+
+.emotion-338:hover {
+  background-color: var(--violet-700);
+}
+
+.emotion-338:disabled {
+  background-color: var(--gray-300);
+}
+
+.emotion-338:focus {
+  border: 3px solid var(--violet-300);
+}
+
+.emotion-340 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #fff;
+  background-color: #1976d2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  box-shadow: unset;
+}
+
+.emotion-340::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-340.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-340 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-340:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #1565c0;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+@media (hover: none) {
+  .emotion-340:hover {
+    background-color: #1976d2;
+  }
+}
+
+.emotion-340:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.emotion-340.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.emotion-340.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.emotion-340.MuiButton-root {
+  text-transform: none;
+  color: var(--gray-900);
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.emotion-340.MuiButton-root:not(.MuiButton-text) {
+  border: 1px solid var(--gray-300);
+}
+
+.emotion-340:hover {
+  background-color: var(--gray-100);
+}
+
+.emotion-340:disabled {
+  color: var(--gray-30);
+  background-color: var(--violet-200);
+  border: unset;
+}
+
+.emotion-340:focus {
+  border: 3px solid var(--violet-300);
+}
+
+.emotion-344 {
+  display: inherit;
+  margin-right: -4px;
+  margin-left: 8px;
+}
+
+.emotion-344>*:nth-of-type(1) {
+  font-size: 20px;
+}
+
+<body>
+  <div>
+    <div
+      class="w-full"
+    >
+      <p
+        class="block antialiased font-sans text-xl font-semibold text-indigo-500 pb-6"
+        data-id="search-transactions-typography"
+        data-testid="search-transactions-typography"
+        placeholder=""
+      >
+        Transactions
+      </p>
+      <div
+        class="flex items-center pb-6"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-indigo-500"
+          data-id="transaction-search-step-typography"
+          data-testid="transaction-search-step-typography"
+          placeholder=""
+        >
+          Transactions Search
+        </p>
+      </div>
+      <div
+        class="px-4 py-2 rounded-xl"
+        style="background-color: white;"
+      >
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-inherit"
+          data-id="search-transactions-typography"
+          data-testid="search-transactions-typography"
+          placeholder=""
+        >
+          Search transactions
+        </p>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth mt-2 mb-6 emotion-0"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container input emotion-1"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="instruction-id-typography"
+                data-testid="instruction-id-typography"
+                placeholder=""
+              >
+                Instruction ID
+                 :
+              </p>
+              <div
+                aria-label="Full term search only"
+                class="flex flex-1"
+                data-id="instruction-id-tooltip"
+                data-mui-internal-clone-element="true"
+                data-testid="instruction-id-tooltip"
+              >
+                <div
+                  class="MuiFormControl-root w-full h-full highlight emotion-4"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                    data-id="instruction-id-root-input"
+                    data-testid="instruction-id-root-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                      data-id="instruction-id-input"
+                      data-testid="instruction-id-input"
+                      id="instruction-id"
+                      name="instructionId"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline emotion-7"
+                    >
+                      <legend
+                        class="emotion-8"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="transaction-date-from-typography"
+                data-testid="transaction-date-from-typography"
+                placeholder=""
+              >
+                Transaction Date/Time From
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="MuiFormControl-root root w-full h-full datePicker emotion-4"
+                >
+                  <div
+                    class="MuiFormControl-root MuiTextField-root root emotion-13"
+                    data-id="transaction-date-from-input"
+                    data-testid="transaction-date-from-input"
+                  >
+                    <div
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd emotion-14"
+                    >
+                      <input
+                        aria-invalid="false"
+                        autocomplete="off"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd emotion-15"
+                        id=":r1:"
+                        inputmode="text"
+                        placeholder="DD/MM/YYYY hh:mm:ss"
+                        type="text"
+                        value=""
+                      />
+                      <div
+                        class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium emotion-16"
+                      >
+                        <button
+                          aria-label="Choose date"
+                          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium emotion-17"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <svg
+                            data-id="transaction-date-from-open-date-picker"
+                            data-testid="transaction-date-from-open-date-picker"
+                            id="transaction-date-from-open"
+                            type="mockSvg"
+                          />
+                          <span
+                            class="MuiTouchRipple-root emotion-18"
+                          />
+                        </button>
+                      </div>
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline emotion-7"
+                      >
+                        <legend
+                          class="emotion-8"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="transaction-date-to-typography"
+                data-testid="transaction-date-to-typography"
+                placeholder=""
+              >
+                Transaction Date/Time To
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="MuiFormControl-root root w-full h-full datePicker emotion-4"
+                >
+                  <div
+                    class="MuiFormControl-root MuiTextField-root root emotion-13"
+                    data-id="transaction-date-to-input"
+                    data-testid="transaction-date-to-input"
+                  >
+                    <div
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd emotion-14"
+                    >
+                      <input
+                        aria-invalid="false"
+                        autocomplete="off"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd emotion-15"
+                        id=":r3:"
+                        inputmode="text"
+                        placeholder="DD/MM/YYYY hh:mm:ss"
+                        type="text"
+                        value=""
+                      />
+                      <div
+                        class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium emotion-16"
+                      >
+                        <button
+                          aria-label="Choose date"
+                          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium emotion-17"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <svg
+                            data-id="transaction-date-to-open-date-picker"
+                            data-testid="transaction-date-to-open-date-picker"
+                            id="transaction-date-to-open"
+                            type="mockSvg"
+                          />
+                          <span
+                            class="MuiTouchRipple-root emotion-18"
+                          />
+                        </button>
+                      </div>
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline emotion-7"
+                      >
+                        <legend
+                          class="emotion-8"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="service-typography"
+                data-testid="service-typography"
+                placeholder=""
+              >
+                Service
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="select"
+                >
+                  <div
+                    class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                    data-id="service-root-autocomplete-select-async"
+                    data-testid="service-root-autocomplete-select-async"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                    >
+                      <div
+                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                      >
+                        <input
+                          aria-autocomplete="list"
+                          aria-expanded="false"
+                          aria-invalid="false"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                          data-id="service-input-autocomplete-select-async"
+                          data-testid="service-input-autocomplete-select-async"
+                          id=":r5:"
+                          role="combobox"
+                          spellcheck="false"
+                          type="text"
+                          value="All Bill Payment"
+                        />
+                        <div
+                          data-id="service-open-autocomplete-select-async"
+                          data-testid="service-open-autocomplete-select-async"
+                        >
+                          <div
+                            class="MuiAutocomplete-endAdornment emotion-40"
+                          >
+                            <button
+                              aria-label="Open"
+                              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                              tabindex="-1"
+                              title="Open"
+                              type="button"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                data-testid="KeyboardArrowDownIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                />
+                              </svg>
+                              <span
+                                class="MuiTouchRipple-root emotion-18"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <fieldset
+                          aria-hidden="true"
+                          class="MuiOutlinedInput-notchedOutline emotion-7"
+                        >
+                          <legend
+                            class="emotion-8"
+                          >
+                            <span
+                              class="notranslate"
+                            >
+                              ​
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="amount-from-typography"
+                data-testid="amount-from-typography"
+                placeholder=""
+              >
+                Amount From
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="MuiFormControl-root w-full h-full highlight emotion-4"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                    data-id="amount-from-root-input"
+                    data-testid="amount-from-root-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                      data-id="amount-from-input"
+                      data-testid="amount-from-input"
+                      id="amount-from"
+                      name="amountFrom"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline emotion-7"
+                    >
+                      <legend
+                        class="emotion-8"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="amount-to-typography"
+                data-testid="amount-to-typography"
+                placeholder=""
+              >
+                Amount To
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="MuiFormControl-root w-full h-full highlight emotion-4"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                    data-id="amount-to-root-input"
+                    data-testid="amount-to-root-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                      data-id="amount-to-input"
+                      data-testid="amount-to-input"
+                      id="amount-to"
+                      name="amountTo"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline emotion-7"
+                    >
+                      <legend
+                        class="emotion-8"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="instruction-reference-typography"
+                data-testid="instruction-reference-typography"
+                placeholder=""
+              >
+                Instruction Reference
+                 :
+              </p>
+              <div
+                aria-label="Full term search only"
+                class="flex flex-1"
+                data-id="instruction-reference-tooltip"
+                data-mui-internal-clone-element="true"
+                data-testid="instruction-reference-tooltip"
+              >
+                <div
+                  class="MuiFormControl-root w-full h-full highlight emotion-4"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                    data-id="instruction-reference-root-input"
+                    data-testid="instruction-reference-root-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                      data-id="instruction-reference-input"
+                      data-testid="instruction-reference-input"
+                      id="instruction-reference"
+                      name="instructionReference"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline emotion-7"
+                    >
+                      <legend
+                        class="emotion-8"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="channel-typography"
+                data-testid="channel-typography"
+                placeholder=""
+              >
+                Channel
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="select"
+                >
+                  <div
+                    class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                    data-id="channel-root-autocomplete-select-async"
+                    data-testid="channel-root-autocomplete-select-async"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                    >
+                      <div
+                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                      >
+                        <input
+                          aria-autocomplete="list"
+                          aria-expanded="false"
+                          aria-invalid="false"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                          data-id="channel-input-autocomplete-select-async"
+                          data-testid="channel-input-autocomplete-select-async"
+                          id=":r8:"
+                          role="combobox"
+                          spellcheck="false"
+                          type="text"
+                          value=""
+                        />
+                        <div
+                          data-id="channel-open-autocomplete-select-async"
+                          data-testid="channel-open-autocomplete-select-async"
+                        >
+                          <div
+                            class="MuiAutocomplete-endAdornment emotion-40"
+                          >
+                            <button
+                              aria-label="Open"
+                              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                              tabindex="-1"
+                              title="Open"
+                              type="button"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                data-testid="KeyboardArrowDownIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                />
+                              </svg>
+                              <span
+                                class="MuiTouchRipple-root emotion-18"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <fieldset
+                          aria-hidden="true"
+                          class="MuiOutlinedInput-notchedOutline emotion-7"
+                        >
+                          <legend
+                            class="emotion-8"
+                          >
+                            <span
+                              class="notranslate"
+                            >
+                              ​
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="currency-typography"
+                data-testid="currency-typography"
+                placeholder=""
+              >
+                Currency
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="select"
+                >
+                  <div
+                    class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                    data-id="currency-root-autocomplete-select-async"
+                    data-testid="currency-root-autocomplete-select-async"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                    >
+                      <div
+                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                      >
+                        <input
+                          aria-autocomplete="list"
+                          aria-expanded="false"
+                          aria-invalid="false"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                          data-id="currency-input-autocomplete-select-async"
+                          data-testid="currency-input-autocomplete-select-async"
+                          id=":ra:"
+                          role="combobox"
+                          spellcheck="false"
+                          type="text"
+                          value=""
+                        />
+                        <div
+                          data-id="currency-open-autocomplete-select-async"
+                          data-testid="currency-open-autocomplete-select-async"
+                        >
+                          <div
+                            class="MuiAutocomplete-endAdornment emotion-40"
+                          >
+                            <button
+                              aria-label="Open"
+                              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                              tabindex="-1"
+                              title="Open"
+                              type="button"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                data-testid="KeyboardArrowDownIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                />
+                              </svg>
+                              <span
+                                class="MuiTouchRipple-root emotion-18"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <fieldset
+                          aria-hidden="true"
+                          class="MuiOutlinedInput-notchedOutline emotion-7"
+                        >
+                          <legend
+                            class="emotion-8"
+                          >
+                            <span
+                              class="notranslate"
+                            >
+                              ​
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="transaction-end-to-end-id-typography"
+                data-testid="transaction-end-to-end-id-typography"
+                placeholder=""
+              >
+                Transaction End to End ID
+                 :
+              </p>
+              <div
+                aria-label="Full term search only"
+                class="flex flex-1"
+                data-id="transaction-end-to-end-id-tooltip"
+                data-mui-internal-clone-element="true"
+                data-testid="transaction-end-to-end-id-tooltip"
+              >
+                <div
+                  class="MuiFormControl-root w-full h-full highlight emotion-4"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                    data-id="transaction-end-to-end-id-root-input"
+                    data-testid="transaction-end-to-end-id-root-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                      data-id="transaction-end-to-end-id-input"
+                      data-testid="transaction-end-to-end-id-input"
+                      id="transaction-end-to-end-id"
+                      name="transactionEndToEndId"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline emotion-7"
+                    >
+                      <legend
+                        class="emotion-8"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="debit-party-account-typography"
+                data-testid="debit-party-account-typography"
+                placeholder=""
+              >
+                Debit Party Account
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="MuiFormControl-root w-full h-full highlight emotion-4"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                    data-id="debit-party-account-root-input"
+                    data-testid="debit-party-account-root-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                      data-id="debit-party-account-input"
+                      data-testid="debit-party-account-input"
+                      id="debit-party-account"
+                      name="debitPartyAccount"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline emotion-7"
+                    >
+                      <legend
+                        class="emotion-8"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="debit-party-account-code-typography"
+                data-testid="debit-party-account-code-typography"
+                placeholder=""
+              >
+                Debit Party Bank Code
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="MuiFormControl-root w-full h-full emotion-4"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                    data-id="debit-party-account-code-root-input"
+                    data-testid="debit-party-account-code-root-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                      data-id="debit-party-account-code-input"
+                      data-testid="debit-party-account-code-input"
+                      id="debit-party-account-code"
+                      name="debitPartyAccountCode"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline emotion-7"
+                    >
+                      <legend
+                        class="emotion-8"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="transaction-reference-typography"
+                data-testid="transaction-reference-typography"
+                placeholder=""
+              >
+                Transaction Reference
+                 :
+              </p>
+              <div
+                aria-label="Full term search only"
+                class="flex flex-1"
+                data-id="transaction-reference-tooltip"
+                data-mui-internal-clone-element="true"
+                data-testid="transaction-reference-tooltip"
+              >
+                <div
+                  class="MuiFormControl-root w-full h-full highlight emotion-4"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                    data-id="transaction-reference-root-input"
+                    data-testid="transaction-reference-root-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                      data-id="transaction-reference-input"
+                      data-testid="transaction-reference-input"
+                      id="transaction-reference"
+                      name="transactionReference"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline emotion-7"
+                    >
+                      <legend
+                        class="emotion-8"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="credit-party-account-typography"
+                data-testid="credit-party-account-typography"
+                placeholder=""
+              >
+                Credit Party Account
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="MuiFormControl-root w-full h-full highlight emotion-4"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                    data-id="credit-party-account-root-input"
+                    data-testid="credit-party-account-root-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                      data-id="credit-party-account-input"
+                      data-testid="credit-party-account-input"
+                      id="credit-party-account"
+                      name="creditPartyAccount"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline emotion-7"
+                    >
+                      <legend
+                        class="emotion-8"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="credit-party-account-code-typography"
+                data-testid="credit-party-account-code-typography"
+                placeholder=""
+              >
+                Credit Party Bank Code
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="MuiFormControl-root w-full h-full emotion-4"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                    data-id="credit-party-account-code-root-input"
+                    data-testid="credit-party-account-code-root-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                      data-id="credit-party-account-code-input"
+                      data-testid="credit-party-account-code-input"
+                      id="credit-party-account-code"
+                      name="creditPartyAccountCode"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline emotion-7"
+                    >
+                      <legend
+                        class="emotion-8"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="transaction-types-typography"
+                data-testid="transaction-types-typography"
+                placeholder=""
+              >
+                Transaction Type
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="select"
+                >
+                  <div
+                    class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                    data-id="transactionTypes-root-autocomplete-select-async"
+                    data-testid="transactionTypes-root-autocomplete-select-async"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                    >
+                      <div
+                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                      >
+                        <input
+                          aria-autocomplete="list"
+                          aria-expanded="false"
+                          aria-invalid="false"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                          data-id="transactionTypes-input-autocomplete-select-async"
+                          data-testid="transactionTypes-input-autocomplete-select-async"
+                          id=":re:"
+                          role="combobox"
+                          spellcheck="false"
+                          type="text"
+                          value=""
+                        />
+                        <div
+                          data-id="transactionTypes-open-autocomplete-select-async"
+                          data-testid="transactionTypes-open-autocomplete-select-async"
+                        >
+                          <div
+                            class="MuiAutocomplete-endAdornment emotion-40"
+                          >
+                            <button
+                              aria-label="Open"
+                              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                              tabindex="-1"
+                              title="Open"
+                              type="button"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                data-testid="KeyboardArrowDownIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                />
+                              </svg>
+                              <span
+                                class="MuiTouchRipple-root emotion-18"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <fieldset
+                          aria-hidden="true"
+                          class="MuiOutlinedInput-notchedOutline emotion-7"
+                        >
+                          <legend
+                            class="emotion-8"
+                          >
+                            <span
+                              class="notranslate"
+                            >
+                              ​
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="classification-typography"
+                data-testid="classification-typography"
+                placeholder=""
+              >
+                Classification
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="select"
+                >
+                  <div
+                    class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                    data-id="classification-root-autocomplete-select-async"
+                    data-testid="classification-root-autocomplete-select-async"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                    >
+                      <div
+                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                      >
+                        <input
+                          aria-autocomplete="list"
+                          aria-expanded="false"
+                          aria-invalid="false"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                          data-id="classification-input-autocomplete-select-async"
+                          data-testid="classification-input-autocomplete-select-async"
+                          id=":rg:"
+                          role="combobox"
+                          spellcheck="false"
+                          type="text"
+                          value=""
+                        />
+                        <div
+                          data-id="classification-open-autocomplete-select-async"
+                          data-testid="classification-open-autocomplete-select-async"
+                        >
+                          <div
+                            class="MuiAutocomplete-endAdornment emotion-40"
+                          >
+                            <button
+                              aria-label="Open"
+                              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                              tabindex="-1"
+                              title="Open"
+                              type="button"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                data-testid="KeyboardArrowDownIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                />
+                              </svg>
+                              <span
+                                class="MuiTouchRipple-root emotion-18"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <fieldset
+                          aria-hidden="true"
+                          class="MuiOutlinedInput-notchedOutline emotion-7"
+                        >
+                          <legend
+                            class="emotion-8"
+                          >
+                            <span
+                              class="notranslate"
+                            >
+                              ​
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          >
+            <div
+              class="flex flex-row MuiBox-root emotion-3"
+            >
+              <p
+                class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                data-id="status-typography"
+                data-testid="status-typography"
+                placeholder=""
+              >
+                Status
+                 :
+              </p>
+              <div
+                class="flex flex-1 MuiBox-root emotion-3"
+              >
+                <div
+                  class="select"
+                >
+                  <div
+                    class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                    data-id="status-root-autocomplete-select-async"
+                    data-testid="status-root-autocomplete-select-async"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                    >
+                      <div
+                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                      >
+                        <input
+                          aria-autocomplete="list"
+                          aria-expanded="false"
+                          aria-invalid="false"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                          data-id="status-input-autocomplete-select-async"
+                          data-testid="status-input-autocomplete-select-async"
+                          id=":ri:"
+                          role="combobox"
+                          spellcheck="false"
+                          type="text"
+                          value=""
+                        />
+                        <div
+                          data-id="status-open-autocomplete-select-async"
+                          data-testid="status-open-autocomplete-select-async"
+                        >
+                          <div
+                            class="MuiAutocomplete-endAdornment emotion-40"
+                          >
+                            <button
+                              aria-label="Open"
+                              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                              tabindex="-1"
+                              title="Open"
+                              type="button"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                data-testid="KeyboardArrowDownIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                />
+                              </svg>
+                              <span
+                                class="MuiTouchRipple-root emotion-18"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <fieldset
+                          aria-hidden="true"
+                          class="MuiOutlinedInput-notchedOutline emotion-7"
+                        >
+                          <legend
+                            class="emotion-8"
+                          >
+                            <span
+                              class="notranslate"
+                            >
+                              ​
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 !p-0 !min-h-0 emotion-180"
+          >
+            <div
+              class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden emotion-181"
+              style="min-height: 0px;"
+            >
+              <div
+                class="MuiCollapse-wrapper MuiCollapse-vertical emotion-182"
+              >
+                <div
+                  class="MuiCollapse-wrapperInner MuiCollapse-vertical emotion-183"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container emotion-1"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="on-us-flag-typography"
+                          data-testid="on-us-flag-typography"
+                          placeholder=""
+                        >
+                          On-us flag
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="select"
+                          >
+                            <div
+                              class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                              data-id="on-us-flag-root-autocomplete-select-async"
+                              data-testid="on-us-flag-root-autocomplete-select-async"
+                            >
+                              <div
+                                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                              >
+                                <div
+                                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                                >
+                                  <input
+                                    aria-autocomplete="list"
+                                    aria-expanded="false"
+                                    aria-invalid="false"
+                                    autocapitalize="none"
+                                    autocomplete="off"
+                                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                                    data-id="on-us-flag-input-autocomplete-select-async"
+                                    data-testid="on-us-flag-input-autocomplete-select-async"
+                                    id=":rk:"
+                                    role="combobox"
+                                    spellcheck="false"
+                                    type="text"
+                                    value=""
+                                  />
+                                  <div
+                                    data-id="on-us-flag-open-autocomplete-select-async"
+                                    data-testid="on-us-flag-open-autocomplete-select-async"
+                                  >
+                                    <div
+                                      class="MuiAutocomplete-endAdornment emotion-40"
+                                    >
+                                      <button
+                                        aria-label="Open"
+                                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                                        tabindex="-1"
+                                        title="Open"
+                                        type="button"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                          data-testid="KeyboardArrowDownIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                          />
+                                        </svg>
+                                        <span
+                                          class="MuiTouchRipple-root emotion-18"
+                                        />
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <fieldset
+                                    aria-hidden="true"
+                                    class="MuiOutlinedInput-notchedOutline emotion-7"
+                                  >
+                                    <legend
+                                      class="emotion-8"
+                                    >
+                                      <span
+                                        class="notranslate"
+                                      >
+                                        ​
+                                      </span>
+                                    </legend>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="payerTepa-code-typography"
+                          data-testid="payerTepa-code-typography"
+                          placeholder=""
+                        >
+                          Payer TEPA Code
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="MuiFormControl-root w-full h-full emotion-4"
+                          >
+                            <div
+                              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                              data-id="payerTepa-code-root-input"
+                              data-testid="payerTepa-code-root-input"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                                data-id="payerTepa-code-input"
+                                data-testid="payerTepa-code-input"
+                                id="payerTepa-code"
+                                name="payerTepaCode"
+                                type="text"
+                                value=""
+                              />
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline emotion-7"
+                              >
+                                <legend
+                                  class="emotion-8"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="sender-e-wallet-id-typography"
+                          data-testid="sender-e-wallet-id-typography"
+                          placeholder=""
+                        >
+                          Sender E-wallet ID
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="MuiFormControl-root w-full h-full emotion-4"
+                          >
+                            <div
+                              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                              data-id="sender-e-wallet-id-root-input"
+                              data-testid="sender-e-wallet-id-root-input"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                                data-id="sender-e-wallet-id-input"
+                                data-testid="sender-e-wallet-id-input"
+                                id="sender-e-wallet-id"
+                                name="senderEWalletId"
+                                type="text"
+                                value=""
+                              />
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline emotion-7"
+                              >
+                                <legend
+                                  class="emotion-8"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="account-service-reference-typography"
+                          data-testid="account-service-reference-typography"
+                          placeholder=""
+                        >
+                          Account service reference
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="MuiFormControl-root w-full h-full emotion-4"
+                          >
+                            <div
+                              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                              data-id="account-service-reference-root-input"
+                              data-testid="account-service-reference-root-input"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                                data-id="account-service-reference-input"
+                                data-testid="account-service-reference-input"
+                                id="account-service-reference"
+                                name="accountServiceReference"
+                                type="text"
+                                value=""
+                              />
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline emotion-7"
+                              >
+                                <legend
+                                  class="emotion-8"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="transaction-receipt-number-typography"
+                          data-testid="transaction-receipt-number-typography"
+                          placeholder=""
+                        >
+                          Transaction receipt number
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="MuiFormControl-root w-full h-full emotion-4"
+                          >
+                            <div
+                              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                              data-id="transaction-receipt-number-root-input"
+                              data-testid="transaction-receipt-number-root-input"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                                data-id="transaction-receipt-number-input"
+                                data-testid="transaction-receipt-number-input"
+                                id="transaction-receipt-number"
+                                name="transactionReceiptNumber"
+                                type="text"
+                                value=""
+                              />
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline emotion-7"
+                              >
+                                <legend
+                                  class="emotion-8"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="debit-party-id-typography"
+                          data-testid="debit-party-id-typography"
+                          placeholder=""
+                        >
+                          Debit Party ID
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="MuiFormControl-root w-full h-full emotion-4"
+                          >
+                            <div
+                              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                              data-id="debit-party-id-root-input"
+                              data-testid="debit-party-id-root-input"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                                data-id="debit-party-id-input"
+                                data-testid="debit-party-id-input"
+                                id="debit-party-id"
+                                name="debitPartyId"
+                                type="text"
+                                value=""
+                              />
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline emotion-7"
+                              >
+                                <legend
+                                  class="emotion-8"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="credit-party-id-typography"
+                          data-testid="credit-party-id-typography"
+                          placeholder=""
+                        >
+                          Credit Party ID
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="MuiFormControl-root w-full h-full emotion-4"
+                          >
+                            <div
+                              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                              data-id="credit-party-id-root-input"
+                              data-testid="credit-party-id-root-input"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                                data-id="credit-party-id-input"
+                                data-testid="credit-party-id-input"
+                                id="credit-party-id"
+                                name="creditPartyId"
+                                type="text"
+                                value=""
+                              />
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline emotion-7"
+                              >
+                                <legend
+                                  class="emotion-8"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="bill-reference-1-typography"
+                          data-testid="bill-reference-1-typography"
+                          placeholder=""
+                        >
+                          Bill Reference 1
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="MuiFormControl-root w-full h-full emotion-4"
+                          >
+                            <div
+                              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                              data-id="bill-reference-1-root-input"
+                              data-testid="bill-reference-1-root-input"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                                data-id="bill-reference-1-input"
+                                data-testid="bill-reference-1-input"
+                                id="bill-reference-1"
+                                name="billReference1"
+                                type="text"
+                                value=""
+                              />
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline emotion-7"
+                              >
+                                <legend
+                                  class="emotion-8"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="bill-reference-2-typography"
+                          data-testid="bill-reference-2-typography"
+                          placeholder=""
+                        >
+                          Bill Reference 2
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="MuiFormControl-root w-full h-full emotion-4"
+                          >
+                            <div
+                              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                              data-id="bill-reference-2-root-input"
+                              data-testid="bill-reference-2-root-input"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                                data-id="bill-reference-2-input"
+                                data-testid="bill-reference-2-input"
+                                id="bill-reference-2"
+                                name="billReference2"
+                                type="text"
+                                value=""
+                              />
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline emotion-7"
+                              >
+                                <legend
+                                  class="emotion-8"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="bill-reference-3-typography"
+                          data-testid="bill-reference-3-typography"
+                          placeholder=""
+                        >
+                          Bill Reference 3
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="MuiFormControl-root w-full h-full emotion-4"
+                          >
+                            <div
+                              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-5"
+                              data-id="bill-reference-3-root-input"
+                              data-testid="bill-reference-3-root-input"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiInputBase-input MuiOutlinedInput-input emotion-6"
+                                data-id="bill-reference-3-input"
+                                data-testid="bill-reference-3-input"
+                                id="bill-reference-3"
+                                name="billReference3"
+                                type="text"
+                                value=""
+                              />
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline emotion-7"
+                              >
+                                <legend
+                                  class="emotion-8"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="payment-method-typography"
+                          data-testid="payment-method-typography"
+                          placeholder=""
+                        >
+                          Payment method
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="select"
+                          >
+                            <div
+                              class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                              data-id="payment-method-root-autocomplete-select-async"
+                              data-testid="payment-method-root-autocomplete-select-async"
+                            >
+                              <div
+                                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                              >
+                                <div
+                                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                                >
+                                  <input
+                                    aria-autocomplete="list"
+                                    aria-expanded="false"
+                                    aria-invalid="false"
+                                    autocapitalize="none"
+                                    autocomplete="off"
+                                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                                    data-id="payment-method-input-autocomplete-select-async"
+                                    data-testid="payment-method-input-autocomplete-select-async"
+                                    id=":rm:"
+                                    role="combobox"
+                                    spellcheck="false"
+                                    type="text"
+                                    value=""
+                                  />
+                                  <div
+                                    data-id="payment-method-open-autocomplete-select-async"
+                                    data-testid="payment-method-open-autocomplete-select-async"
+                                  >
+                                    <div
+                                      class="MuiAutocomplete-endAdornment emotion-40"
+                                    >
+                                      <button
+                                        aria-label="Open"
+                                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                                        tabindex="-1"
+                                        title="Open"
+                                        type="button"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                          data-testid="KeyboardArrowDownIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                          />
+                                        </svg>
+                                        <span
+                                          class="MuiTouchRipple-root emotion-18"
+                                        />
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <fieldset
+                                    aria-hidden="true"
+                                    class="MuiOutlinedInput-notchedOutline emotion-7"
+                                  >
+                                    <legend
+                                      class="emotion-8"
+                                    >
+                                      <span
+                                        class="notranslate"
+                                      >
+                                        ​
+                                      </span>
+                                    </legend>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="external-clearing-system-typography"
+                          data-testid="external-clearing-system-typography"
+                          placeholder=""
+                        >
+                          External Clearing System
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="select"
+                          >
+                            <div
+                              class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                              data-id="external-clearing-system-root-autocomplete-select-async"
+                              data-testid="external-clearing-system-root-autocomplete-select-async"
+                            >
+                              <div
+                                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                              >
+                                <div
+                                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-disabled MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                                >
+                                  <input
+                                    aria-autocomplete="list"
+                                    aria-expanded="false"
+                                    aria-invalid="false"
+                                    autocapitalize="none"
+                                    autocomplete="off"
+                                    class="MuiInputBase-input MuiOutlinedInput-input Mui-disabled MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                                    data-id="external-clearing-system-input-autocomplete-select-async"
+                                    data-testid="external-clearing-system-input-autocomplete-select-async"
+                                    disabled=""
+                                    id=":ro:"
+                                    role="combobox"
+                                    spellcheck="false"
+                                    type="text"
+                                    value=""
+                                  />
+                                  <div
+                                    data-id="external-clearing-system-open-autocomplete-select-async"
+                                    data-testid="external-clearing-system-open-autocomplete-select-async"
+                                  >
+                                    <div
+                                      class="MuiAutocomplete-endAdornment emotion-40"
+                                    >
+                                      <button
+                                        aria-label="Open"
+                                        class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                                        disabled=""
+                                        tabindex="-1"
+                                        title="Open"
+                                        type="button"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                          data-testid="KeyboardArrowDownIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                          />
+                                        </svg>
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <fieldset
+                                    aria-hidden="true"
+                                    class="MuiOutlinedInput-notchedOutline emotion-7"
+                                  >
+                                    <legend
+                                      class="emotion-8"
+                                    >
+                                      <span
+                                        class="notranslate"
+                                      >
+                                        ​
+                                      </span>
+                                    </legend>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="kym-limit-check-typography"
+                          data-testid="kym-limit-check-typography"
+                          placeholder=""
+                        >
+                          KYM Limit Check
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="select"
+                          >
+                            <div
+                              class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                              data-id="kym-limit-check-root-autocomplete-select-async"
+                              data-testid="kym-limit-check-root-autocomplete-select-async"
+                            >
+                              <div
+                                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                              >
+                                <div
+                                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                                >
+                                  <input
+                                    aria-autocomplete="list"
+                                    aria-expanded="false"
+                                    aria-invalid="false"
+                                    autocapitalize="none"
+                                    autocomplete="off"
+                                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                                    data-id="kym-limit-check-input-autocomplete-select-async"
+                                    data-testid="kym-limit-check-input-autocomplete-select-async"
+                                    id=":rq:"
+                                    role="combobox"
+                                    spellcheck="false"
+                                    type="text"
+                                    value=""
+                                  />
+                                  <div
+                                    data-id="kym-limit-check-open-autocomplete-select-async"
+                                    data-testid="kym-limit-check-open-autocomplete-select-async"
+                                  >
+                                    <div
+                                      class="MuiAutocomplete-endAdornment emotion-40"
+                                    >
+                                      <button
+                                        aria-label="Open"
+                                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                                        tabindex="-1"
+                                        title="Open"
+                                        type="button"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                          data-testid="KeyboardArrowDownIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                          />
+                                        </svg>
+                                        <span
+                                          class="MuiTouchRipple-root emotion-18"
+                                        />
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <fieldset
+                                    aria-hidden="true"
+                                    class="MuiOutlinedInput-notchedOutline emotion-7"
+                                  >
+                                    <legend
+                                      class="emotion-8"
+                                    >
+                                      <span
+                                        class="notranslate"
+                                      >
+                                        ​
+                                      </span>
+                                    </legend>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="outbound-inbound-typography"
+                          data-testid="outbound-inbound-typography"
+                          placeholder=""
+                        >
+                          Outbound/Inbound
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="select"
+                          >
+                            <div
+                              class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                              data-id="outbound-inbound-root-autocomplete-select-async"
+                              data-testid="outbound-inbound-root-autocomplete-select-async"
+                            >
+                              <div
+                                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                              >
+                                <div
+                                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                                >
+                                  <input
+                                    aria-autocomplete="list"
+                                    aria-expanded="false"
+                                    aria-invalid="false"
+                                    autocapitalize="none"
+                                    autocomplete="off"
+                                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                                    data-id="outbound-inbound-input-autocomplete-select-async"
+                                    data-testid="outbound-inbound-input-autocomplete-select-async"
+                                    id=":rs:"
+                                    role="combobox"
+                                    spellcheck="false"
+                                    type="text"
+                                    value=""
+                                  />
+                                  <div
+                                    data-id="outbound-inbound-open-autocomplete-select-async"
+                                    data-testid="outbound-inbound-open-autocomplete-select-async"
+                                  >
+                                    <div
+                                      class="MuiAutocomplete-endAdornment emotion-40"
+                                    >
+                                      <button
+                                        aria-label="Open"
+                                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                                        tabindex="-1"
+                                        title="Open"
+                                        type="button"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                          data-testid="KeyboardArrowDownIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                          />
+                                        </svg>
+                                        <span
+                                          class="MuiTouchRipple-root emotion-18"
+                                        />
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <fieldset
+                                    aria-hidden="true"
+                                    class="MuiOutlinedInput-notchedOutline emotion-7"
+                                  >
+                                    <legend
+                                      class="emotion-8"
+                                    >
+                                      <span
+                                        class="notranslate"
+                                      >
+                                        ​
+                                      </span>
+                                    </legend>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+                    >
+                      <div
+                        class="flex flex-row MuiBox-root emotion-3"
+                      >
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit w-[140px] pr-2"
+                          data-id="20022-flag-typography"
+                          data-testid="20022-flag-typography"
+                          placeholder=""
+                        >
+                          20022 Flag
+                           :
+                        </p>
+                        <div
+                          class="flex flex-1 MuiBox-root emotion-3"
+                        >
+                          <div
+                            class="select"
+                          >
+                            <div
+                              class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon root emotion-36"
+                              data-id="20022-flag-root-autocomplete-select-async"
+                              data-testid="20022-flag-root-autocomplete-select-async"
+                            >
+                              <div
+                                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root emotion-37"
+                              >
+                                <div
+                                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiInputBase-hiddenLabel MuiAutocomplete-inputRoot emotion-38"
+                                >
+                                  <input
+                                    aria-autocomplete="list"
+                                    aria-expanded="false"
+                                    aria-invalid="false"
+                                    autocapitalize="none"
+                                    autocomplete="off"
+                                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputHiddenLabel MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused emotion-15"
+                                    data-id="20022-flag-input-autocomplete-select-async"
+                                    data-testid="20022-flag-input-autocomplete-select-async"
+                                    id=":ru:"
+                                    role="combobox"
+                                    spellcheck="false"
+                                    type="text"
+                                    value=""
+                                  />
+                                  <div
+                                    data-id="20022-flag-open-autocomplete-select-async"
+                                    data-testid="20022-flag-open-autocomplete-select-async"
+                                  >
+                                    <div
+                                      class="MuiAutocomplete-endAdornment emotion-40"
+                                    >
+                                      <button
+                                        aria-label="Open"
+                                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator emotion-41"
+                                        tabindex="-1"
+                                        title="Open"
+                                        type="button"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                                          data-testid="KeyboardArrowDownIcon"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                                          />
+                                        </svg>
+                                        <span
+                                          class="MuiTouchRipple-root emotion-18"
+                                        />
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <fieldset
+                                    aria-hidden="true"
+                                    class="MuiOutlinedInput-notchedOutline emotion-7"
+                                  >
+                                    <legend
+                                      class="emotion-8"
+                                    >
+                                      <span
+                                        class="notranslate"
+                                      >
+                                        ​
+                                      </span>
+                                    </legend>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 py-6 emotion-334"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 emotion-2"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 flex justify-center emotion-2"
+          >
+            <div
+              class="mr-4 MuiBox-root emotion-3"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary text-xs font-semibold h-[30px] emotion-338"
+                data-id="search-transaction-button"
+                data-testid="search-transaction-button"
+                disabled=""
+                id="search-transaction"
+                tabindex="-1"
+                type="button"
+              >
+                Search
+              </button>
+            </div>
+            <div
+              class="MuiBox-root emotion-3"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary text-xs font-semibold h-[30px] emotion-340"
+                data-id="reset-transaction-button"
+                data-testid="reset-transaction-button"
+                id="reset-transaction"
+                tabindex="0"
+                type="button"
+              >
+                Reset
+                <span
+                  class="MuiTouchRipple-root emotion-18"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 flex justify-end emotion-2"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary text-xs font-semibold h-[30px] emotion-338"
+              data-id="show-advance-search-button"
+              data-testid="show-advance-search-button"
+              id="show-advance-search"
+              tabindex="0"
+              type="button"
+            >
+              Show advance search
+              <span
+                class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium emotion-344"
+              >
+                <div
+                  class="transform rotate-0 transition-transform duration-500 ease-in-out"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-42"
+                    data-id="advance-search-expand-icon"
+                    data-testid="advance-search-expand-icon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+                    />
+                  </svg>
+                </div>
+              </span>
+              <span
+                class="MuiTouchRipple-root emotion-18"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="px-4 my-2 rounded-xl"
+        style="background-color: white;"
+      />
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: ##SERVICE_NAME##
+  name: ##SERVICE_NAME##
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ##SERVICE_NAME##
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: ##SERVICE_NAME##
+    spec:
+      containers:
+        - image: ##ECR_ENDPOINT##
+          name: ##SERVICE_NAME##
+          env:
+          - name: SPRING_ACTIVE_PROFILES
+            value: "sandbox"
+          resources: {}

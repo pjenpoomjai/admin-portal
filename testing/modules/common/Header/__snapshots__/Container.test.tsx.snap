@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header : Container Should render successfully 1`] = `
+.emotion-5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #1976d2;
+  box-shadow: unset;
+}
+
+.emotion-5::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-5.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-5 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-5:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: rgba(25, 118, 210, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-5:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-5.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-5.MuiButton-root {
+  text-transform: none;
+  color: var(--violet-500);
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.emotion-5:hover {
+  background-color: var(--violet-100);
+}
+
+.emotion-5:disabled {
+  color: var(--gary-30);
+  background-color: var(--violet-200);
+}
+
+.emotion-5:focus {
+  background-color: transparent;
+  border: 3px var(--violet-300);
+}
+
+.emotion-6 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-7 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 2.1875rem;
+}
+
+<body>
+  <div>
+    <div
+      data-id="root-header-div"
+      data-testid="root-header-div"
+    >
+      <div
+        class="bbg-cover flex items-center bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-indigo-500 to-90% px-6 py-2 MuiBox-root emotion-0"
+      >
+        <div
+          class="flex items-center w-full MuiBox-root emotion-0"
+        >
+          <svg
+            type="mockSvg"
+          />
+          <p
+            class="block antialiased font-sans font-light text-xl text-white pl-4"
+            data-id="pymd-label-typography"
+            data-testid="pymd-label-typography"
+            placeholder=""
+          >
+            Admin portal
+          </p>
+        </div>
+        <div
+          class="flex items-center MuiBox-root emotion-0"
+        >
+          <div
+            class="flex flex-col items-end pr-[6px] MuiBox-root emotion-0"
+          >
+            <div
+              class="flex w-max items-baseline MuiBox-root emotion-0"
+            >
+              <p
+                class="block antialiased font-sans text-base font-light leading-relaxed text-white w-max"
+                data-id="user-name-typography"
+                data-testid="user-name-typography"
+                placeholder=""
+              >
+                JOHN DOE
+              </p>
+              <span
+                class="text-white ml-[10px]"
+              >
+                |
+              </span>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary !text-white !p-0 hover:bg-transparent emotion-5"
+                data-id="log-out-button"
+                data-testid="log-out-button"
+                id="log-out"
+                tabindex="0"
+                type="button"
+              >
+                Logout
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </button>
+            </div>
+            <p
+              class="block antialiased font-sans text-base font-light leading-relaxed text-gray-400 pr-[10px] w-max"
+              data-id="last-login-typography"
+              data-testid="last-login-typography"
+              placeholder=""
+            >
+              (last login 
+              2024-02-01T09:53:37
+              )
+            </p>
+          </div>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge text-white emotion-7"
+            data-testid="AccountCircleOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2M7.35 18.5C8.66 17.56 10.26 17 12 17s3.34.56 4.65 1.5c-1.31.94-2.91 1.5-4.65 1.5s-3.34-.56-4.65-1.5m10.79-1.38C16.45 15.8 14.32 15 12 15s-4.45.8-6.14 2.12C4.7 15.73 4 13.95 4 12c0-4.42 3.58-8 8-8s8 3.58 8 8c0 1.95-.7 3.73-1.86 5.12"
+            />
+            <path
+              d="M12 6c-1.93 0-3.5 1.57-3.5 3.5S10.07 13 12 13s3.5-1.57 3.5-3.5S13.93 6 12 6m0 5c-.83 0-1.5-.67-1.5-1.5S11.17 8 12 8s1.5.67 1.5 1.5S12.83 11 12 11"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
